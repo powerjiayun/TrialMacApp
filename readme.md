@@ -71,3 +71,6 @@
 | Core Tunnel | 3.8.6 | ✅ |  |
 | Navicat Premium | 17.0.6 | ✅ |  |
 | Permute 3 | 3.11.10 | ❌ |  |
+| Eon | 2.9.12 | ❌ |  |
+| UctoX 2 | 2.9.14 | ❌ |  |
+| Rottenwood | 1.3 | ❌ |  |

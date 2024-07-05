@@ -270,5 +270,29 @@
     "path": "",
     "app_store": 0,
     "remark": ""
+  },
+  {
+    "name": "Eon",
+    "show_name": "",
+    "version": "2.9.12",
+    "path": "",
+    "app_store": 0,
+    "remark": ""
+  },
+  {
+    "name": "UctoX 2",
+    "show_name": "",
+    "version": "2.9.14",
+    "path": "",
+    "app_store": 0,
+    "remark": ""
+  },
+  {
+    "name": "Rottenwood",
+    "show_name": "",
+    "version": "1.3",
+    "path": "",
+    "app_store": 0,
+    "remark": ""
   }
 ]
