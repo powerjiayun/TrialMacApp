@@ -1,7 +1,7 @@
 ---
-name: app支持
+name: 其他app的支持请求
 about: Create a report to help us improve
-title: xxx app 的支持
+title: xxx app 的支持请求
 labels: future, help wanted
 assignees: ''
 

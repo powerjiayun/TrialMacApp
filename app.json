@@ -294,5 +294,13 @@
     "path": "",
     "app_store": 0,
     "remark": ""
+  },
+  {
+    "name": "Judo",
+    "show_name": "",
+    "version": "7.0.4",
+    "path": "",
+    "app_store": 0,
+    "remark": "有几个功能不能用"
   }
 ]
