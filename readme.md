@@ -10,6 +10,7 @@
 
 ```diff
 - 只支持 arm 架构 m 系芯片
+- Intel 用户可以直接关掉网页，未来也不支持 Intel 架构
 + 这是完全免费的 不用花一毛钱
 
 + app有helper的先装helper，我还没有对helper做同一处理，例如stash、Macs Fan Control 等软件
@@ -35,45 +36,46 @@
 
 > 其中的版本，是我测试的版本，理论上任意版本都可以，只要版本差不是太大
 
-> MAS = Mac App Store
+> MAS = Mac App Store （代表是否从MAS下载的）
 
 | 名称                 | 版本     | MAS | 备注             |
 | -------------------- | -------- | --- | ---------------- |
-| Macs Fan Control | 1.5.16 | ❌ |  |
-| Things3 | 3.19.6 | ❌ |  |
-| Xnip | 2.2.3 | ❌ |  |
+| Macs Fan Control | 1.5.16 |  |  |
+| Things3 | 3.19.6 |  |  |
+| Xnip | 2.2.3 | ✅ | 会出问题，先不要用 |
 | Transmit | 5.10.4 | ✅ |  |
-| BuhoCleaner | 1.10.4 | ❌ |  |
+| BuhoCleaner | 1.10.4 |  |  |
 | Image2Icon | 2.18 | ✅ |  |
 | FileZilla Pro | 3.66.5 | ✅ |  |
 | menubarx |  | ✅ |  |
 | servercat | 1.9.1 | ✅ |  |
 | SQLPro Studio | 2023.35 | ✅ |  |
-| Texifier | 1.9.27 | ❌ |  |
+| Texifier | 1.9.27 |  |  |
 | Sketch | 100 | ✅ |  |
 | Omi录屏专家 | 1.3.8 | ✅ |  |
-| CleanShot X | 4.7 | ❌ |  |
-| Aldente Pro | 1.26.1 | ❌ |  |
-| Table Plus | 6.0.4 | ❌ |  |
-| Doppler | 2.1.21 | ❌ |  |
+| CleanShot X | 4.7 |  |  |
+| Aldente Pro | 1.26.1 |  |  |
+| Table Plus | 6.0.4 |  |  |
+| Doppler | 2.1.21 |  |  |
 | Text Scanner | 1.7.5 | ✅ |  |
-| 欧陆词典 | 4.6.6 | ❌ |  |
-| Blocs |  | ❌ |  |
-| PlistEdit Pro | 1.9.7 | ❌ |  |
-| Downie 4 | 4.7.2 | ❌ |  |
-| Typora | 1.8.10 | ❌ |  |
-| Stash | 2.6.2 | ❌ |  |
-| App Cleaner | 8.2.7 | ❌ |  |
+| 欧陆词典 | 4.6.6 |  |  |
+| Blocs |  |  |  |
+| PlistEdit Pro | 1.9.7 |  |  |
+| Downie 4 | 4.7.2 |  |  |
+| Typora | 1.8.10 |  |  |
+| Stash | 2.6.2 |  |  |
+| App Cleaner | 8.2.7 |  |  |
 | Hype4 | 4.1.18 | ✅ |  |
 | Infuse | 7.8.4860 | ✅ |  |
-| Kaleidoscope | 4.5.1 | ❌ |  |
-| Pixelmator Pro Trial | 3.5.9 | ❌ |  |
-| Proxyman | 5.2.0 | ❌ |  |
+| Kaleidoscope | 4.5.1 |  |  |
+| Pixelmator Pro Trial | 3.5.9 |  |  |
+| Proxyman | 5.2.0 |  |  |
 | ServerCat | 1.12 | ✅ |  |
 | Core Tunnel | 3.8.6 | ✅ |  |
 | Navicat Premium | 17.0.6 | ✅ |  |
-| Permute 3 | 3.11.10 | ❌ |  |
-| Eon | 2.9.12 | ❌ |  |
-| UctoX 2 | 2.9.14 | ❌ |  |
-| Rottenwood | 1.3 | ❌ |  |
-| Judo | 7.0.4 | ❌ | 有几个功能不能用 |
+| Permute 3 | 3.11.10 |  |  |
+| Eon | 2.9.12 |  |  |
+| UctoX 2 | 2.9.14 |  |  |
+| Rottenwood | 1.3 |  |  |
+| Judo | 7.0.4 | ✅ | 有几个功能不能用 |
+| Querious | 4.0.13 |  |  |

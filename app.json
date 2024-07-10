@@ -20,8 +20,8 @@
     "show_name": "",
     "version": "2.2.3",
     "path": "",
-    "app_store": 0,
-    "remark": ""
+    "app_store": 1,
+    "remark": "会出问题，先不要用"
   },
   {
     "name": "Transmit",
@@ -300,7 +300,15 @@
     "show_name": "",
     "version": "7.0.4",
     "path": "",
-    "app_store": 0,
+    "app_store": 1,
     "remark": "有几个功能不能用"
+  },
+  {
+    "name": "Querious",
+    "show_name": "",
+    "version": "4.0.13",
+    "path": "",
+    "app_store": 0,
+    "remark": ""
   }
 ]
