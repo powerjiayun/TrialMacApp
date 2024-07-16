@@ -1,10 +1,14 @@
+## 项目简介
+
+使用 Dobby 制作的 macOS 环境动态注入库，用来更改部分软件的试用逻辑。
+
 ## 为什么要建这个项目
 
 为了让更多消费者能更加了解某个 APP，我创建了此脚本用来支持诸多 APP 的较长时间试用，因为很多软件只有 7 天、15 天的试用期，不太够充分了解其所有能力。
 
 使用此脚本的所有人，应该在完全了解或充分使用一个 APP 后购买正版使用。
 
-另外多说一句，有些网站，挂着盗版的资源还要卖钱，并且还真的有傻逼花钱用盗版软件。要不找开源或免费替代软件，要不花钱买正版，或者拼车买正版，花了钱还用盗版真的是纯纯脑瘫。
+另外多说一句，有些网站，挂着盗版的资源还要卖钱，并且还真的有xx花钱用盗版软件。要不找开源或免费替代软件，要不花钱买正版，或者拼车买正版。
 
 ## 注意
 
@@ -25,6 +29,14 @@
 4.  打开 `Finder` 把上面解压出来的 **文件夹** ，拖动到 `终端` 里，然后按下回车键
 5.  输入 `./TrialMacApp` 回车，开始使用
 
+## 感谢以下项目
+
+- jmpews - [Dobby](https://github.com/jmpews/Dobby)
+- QiuChenlyOpenSource - [SearchHexCodeInFile](https://github.com/QiuChenlyOpenSource/SearchHexCodeInFile)
+- alexzielenski - [optool](https://github.com/alexzielenski/optool)
+- tyilo - [insert_dylib](https://github.com/tyilo/insert_dylib)
+- QiuChenly - [InjectLib](https://github.com/QiuChenly/InjectLib) 
+
 ## 常见问题
 
 1.  使用脚本后 app 无法打开
@@ -42,7 +54,7 @@
 | -------------------- | -------- | --- | ---------------- |
 | Macs Fan Control | 1.5.16 |  |  |
 | Things3 | 3.19.6 |  |  |
-| Xnip | 2.2.3 | ✅ | 会出问题，先不要用 |
+| Xnip | 2.2.3 | ✅ |  |
 | Transmit | 5.10.4 | ✅ |  |
 | BuhoCleaner | 1.10.4 |  |  |
 | Image2Icon | 2.18 | ✅ |  |
@@ -57,7 +69,7 @@
 | Aldente Pro | 1.26.1 |  |  |
 | Table Plus | 6.0.4 |  |  |
 | Doppler | 2.1.21 |  |  |
-| Text Scanner | 1.7.5 | ✅ |  |
+| Text Scanner | 1.7.5 | ✅ | 终端执行其二进制文件 |
 | 欧陆词典 | 4.6.6 |  |  |
 | Blocs |  |  |  |
 | PlistEdit Pro | 1.9.7 |  |  |
@@ -72,7 +84,7 @@
 | Proxyman | 5.2.0 |  |  |
 | ServerCat | 1.12 | ✅ |  |
 | Core Tunnel | 3.8.6 | ✅ |  |
-| Navicat Premium | 17.0.6 | ✅ |  |
+| Navicat Premium | 17.0.6 | ✅ | 借鉴 Qiuchenly |
 | Permute 3 | 3.11.10 |  |  |
 | Eon | 2.9.12 |  |  |
 | UctoX 2 | 2.9.14 |  |  |

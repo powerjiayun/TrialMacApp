@@ -21,7 +21,7 @@
     "version": "2.2.3",
     "path": "",
     "app_store": 1,
-    "remark": "会出问题，先不要用"
+    "remark": ""
   },
   {
     "name": "Transmit",
@@ -141,7 +141,7 @@
     "version": "1.7.5",
     "path": "",
     "app_store": 1,
-    "remark": ""
+    "remark": "终端执行其二进制文件"
   },
   {
     "name": "Eudic",
@@ -261,7 +261,7 @@
     "version": "17.0.6",
     "path": "",
     "app_store": 1,
-    "remark": ""
+    "remark": "借鉴 Qiuchenly"
   },
   {
     "name": "Permute 3",
