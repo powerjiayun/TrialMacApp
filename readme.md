@@ -15,9 +15,11 @@
 ```diff
 - 只支持 arm 架构 m 系芯片
 - Intel 用户可以直接关掉网页，未来也不支持 Intel 架构
+
 + 这是完全免费的 不用花一毛钱
 
 + app有helper的先装helper，我还没有对helper做同一处理，例如stash、Macs Fan Control 等软件
+
 + 我的试用也不一定很全面，有问题有bug就提issue
 ```
 
@@ -46,47 +48,45 @@
 
 ## 支持的 app 如下
 
-> 其中的版本，是我测试的版本，理论上任意版本都可以，只要版本差不是太大
-
 > MAS = Mac App Store （代表是否从MAS下载的）
 
 | 名称                 | 版本     | MAS | 备注             |
 | -------------------- | -------- | --- | ---------------- |
 | Macs Fan Control | 1.5.16 |  |  |
-| Things3 | 3.19.6 |  |  |
-| Xnip | 2.2.3 | ✅ |  |
-| Transmit | 5.10.4 | ✅ |  |
-| BuhoCleaner | 1.10.4 |  |  |
+| Things3 | all |  |  |
+| Xnip | all | ✅ |  |
+| Transmit | all | ✅ |  |
+| BuhoCleaner | all |  |  |
 | Image2Icon | 2.18 | ✅ |  |
 | FileZilla Pro | 3.66.5 | ✅ |  |
-| menubarx |  | ✅ |  |
-| SQLPro Studio | 2023.35 | ✅ |  |
+| menubarx | all | ✅ |  |
+| SQLPro Studio | all | ✅ |  |
 | Texifier | 1.9.27 |  |  |
 | Sketch | 100 | ✅ |  |
-| Omi录屏专家 | 1.3.8 | ✅ |  |
+| Omi录屏专家 | all | ✅ |  |
 | CleanShot X | 4.7 |  | 暂停支持 |
 | Aldente Pro | 1.26.1 |  | 暂停支持 |
 | Table Plus | 6.0.4 |  | 暂停支持 |
-| Doppler | 2.1.21 |  |  |
+| Doppler | all |  |  |
 | Text Scanner | 1.7.5 | ✅ | 终端执行其二进制文件 |
-| 欧陆词典 | 4.6.6 |  |  |
-| Blocs |  |  |  |
-| PlistEdit Pro | 1.9.7 |  |  |
-| Downie 4 | 4.7.2 |  |  |
-| Typora | 1.8.10 |  |  |
+| 欧陆词典 | all |  |  |
+| Blocs | all |  |  |
+| PlistEdit Pro | all |  |  |
+| Downie 4 | all |  |  |
+| Typora | all |  |  |
 | Stash | 2.6.2 |  |  |
 | App Cleaner | 8.2.7 |  |  |
-| Hype4 | 4.1.18 | ✅ |  |
-| Infuse | 7.8.4860 | ✅ |  |
-| Kaleidoscope | 4.5.1 |  |  |
-| Pixelmator Pro Trial | 3.5.9 |  |  |
+| Hype4 | all | ✅ |  |
+| Infuse | all | ✅ |  |
+| Kaleidoscope | all |  |  |
+| Pixelmator Pro Trial | all |  |  |
 | Proxyman | 5.2.0 |  |  |
 | ServerCat | 1.12 | ✅ |  |
-| Core Tunnel | 3.8.6 | ✅ |  |
-| Navicat Premium | 17.0.6 | ✅ | 借鉴 Qiuchenly |
-| Permute 3 | 3.11.10 |  |  |
-| Eon | 2.9.12 |  |  |
-| UctoX 2 | 2.9.14 |  |  |
-| Rottenwood | 1.3 |  |  |
-| Judo | 7.0.4 | ✅ | 免登录 有几个功能不能用 |
-| Querious | 4.0.13 |  |  |
+| Core Tunnel | all | ✅ |  |
+| Navicat Premium | all | ✅ | 借鉴 Qiuchenly |
+| Permute 3 | all |  |  |
+| Eon | all |  |  |
+| UctoX 2 | all |  |  |
+| Rottenwood | all |  |  |
+| Judo | all | ✅ | 免登录 有几个功能不能用 |
+| Querious | all |  |  |
