@@ -60,14 +60,13 @@
 | Image2Icon | 2.18 | ✅ |  |
 | FileZilla Pro | 3.66.5 | ✅ |  |
 | menubarx |  | ✅ |  |
-| servercat | 1.9.1 | ✅ |  |
 | SQLPro Studio | 2023.35 | ✅ |  |
 | Texifier | 1.9.27 |  |  |
 | Sketch | 100 | ✅ |  |
 | Omi录屏专家 | 1.3.8 | ✅ |  |
-| CleanShot X | 4.7 |  |  |
-| Aldente Pro | 1.26.1 |  |  |
-| Table Plus | 6.0.4 |  |  |
+| CleanShot X | 4.7 |  | 暂停支持 |
+| Aldente Pro | 1.26.1 |  | 暂停支持 |
+| Table Plus | 6.0.4 |  | 暂停支持 |
 | Doppler | 2.1.21 |  |  |
 | Text Scanner | 1.7.5 | ✅ | 终端执行其二进制文件 |
 | 欧陆词典 | 4.6.6 |  |  |
@@ -89,5 +88,5 @@
 | Eon | 2.9.12 |  |  |
 | UctoX 2 | 2.9.14 |  |  |
 | Rottenwood | 1.3 |  |  |
-| Judo | 7.0.4 | ✅ | 有几个功能不能用 |
+| Judo | 7.0.4 | ✅ | 免登录 有几个功能不能用 |
 | Querious | 4.0.13 |  |  |
