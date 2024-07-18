@@ -1,6 +1,6 @@
 ## 项目简介
 
-使用 Dobby 制作的 macOS 环境动态注入库，用来更改部分软件的试用逻辑。
+使用 [Dobby](https://github.com/jmpews/Dobby) 制作的 macOS 环境动态注入库，用来更改部分软件的试用逻辑。
 
 ## 为什么要建这个项目
 
@@ -41,10 +41,7 @@
 
 ## 常见问题
 
-1.  使用脚本后 app 无法打开
-
-- 执行 `xattr -cr /Applications/xxxx.app` 如果 app 名字有空格就在空格前面加上一个 `\`，例如 `xattr -cr /Applications/Trial\ Mac\ App.app`
-- 也可以输入 `xattr -cr ` 然后打开 `Finder` 把对应的 app 拖到终端
+1.  
 
 ## 支持的 app 如下
 
@@ -62,7 +59,7 @@
 | menubarx | all | ✅ |  |
 | SQLPro Studio | all | ✅ |  |
 | Texifier | 1.9.27 |  |  |
-| Sketch | 100 | ✅ |  |
+| Sketch | all | ✅ |  |
 | Omi录屏专家 | all | ✅ |  |
 | CleanShot X | 4.7 |  | 暂停支持 |
 | Aldente Pro | 1.26.1 |  | 暂停支持 |
@@ -90,3 +87,4 @@
 | Rottenwood | all |  |  |
 | Judo | all | ✅ | 免登录 有几个功能不能用 |
 | Querious | all |  |  |
+| ForkLift | all |  |  |

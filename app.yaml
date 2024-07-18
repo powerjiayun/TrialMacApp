@@ -73,7 +73,7 @@
   version: "100"
   path: ""
   app_store: 1
-  all_version: 0
+  all_version: 1
   remark: ""
 - name: OmniRecorder
   show_name: Omi录屏专家
@@ -264,3 +264,11 @@
   app_store: 0
   all_version: 1
   remark: ""
+- name: ForkLift
+  show_name: ""
+  version: 4.1.5
+  path: ""
+  app_store: 0
+  all_version: 1
+  remark: ""
+
