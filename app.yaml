@@ -88,7 +88,7 @@
   path: ""
   app_store: 0
   all_version: 0
-  remark: 暂停支持
+  remark: ""
 - name: Aldente Pro
   show_name: ""
   version: 1.26.1
@@ -161,7 +161,7 @@
   remark: ""
 - name: App Cleaner
   show_name: ""
-  version: 8.2.7
+  version: 8.3.1
   path: ""
   app_store: 0
   all_version: 0
@@ -271,4 +271,10 @@
   app_store: 0
   all_version: 1
   remark: ""
-
+- name: CleanMyMac-MAS
+  show_name: ""
+  version: 4.15.4
+  path: ""
+  app_store: 1
+  all_version: 1
+  remark: "不包括状态栏按钮"
