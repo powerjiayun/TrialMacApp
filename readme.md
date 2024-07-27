@@ -31,6 +31,9 @@
 4.  打开 `Finder` 把上面解压出来的 **文件夹** ，拖动到 `终端` 里，然后按下回车键
 5.  输入 `./TrialMacApp` 回车，开始使用
 
+## 新上线了图形化程序，Releases中下载
+![](/img/1.png "")
+
 ## 感谢以下项目
 
 - jmpews - [Dobby](https://github.com/jmpews/Dobby)
