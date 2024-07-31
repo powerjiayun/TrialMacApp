@@ -278,3 +278,10 @@
   app_store: 1
   all_version: 1
   remark: "不包括状态栏按钮"
+- name: Reveal
+  show_name: ""
+  version: 49 (20463)
+  path: ""
+  app_store: 0
+  all_version: 0
+  remark: ""

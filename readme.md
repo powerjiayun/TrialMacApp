@@ -32,6 +32,9 @@
 5.  输入 `./TrialMacApp` 回车，开始使用
 
 ## 新上线了图形化程序，Releases中下载
+
+> 命令行保持最新，GUI程序不定时更新
+
 ![](/img/1.png "")
 
 ## 感谢以下项目
@@ -94,3 +97,4 @@
 | Querious | ✅ |  |  |
 | ForkLift | ✅ |  |  |
 | CleanMyMac-MAS | ✅ | ✅ | 不包括状态栏按钮 |
+| Reveal | 49 (20463) |  |  |
