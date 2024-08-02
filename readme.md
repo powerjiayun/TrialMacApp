@@ -13,8 +13,7 @@
 ## 注意
 
 ```diff
-- 只支持 arm 架构 m 系芯片
-- Intel 用户可以直接关掉网页，未来也不支持 Intel 架构
++ 已支持x86和arm双端，x86测试不完全
 
 + 这是完全免费的 不用花一毛钱
 
@@ -55,46 +54,46 @@
 
 > MAS = Mac App Store （代表是否从MAS下载的）
 
-| 名称                 | 版本     | MAS | 备注             |
-| -------------------- | -------- | --- | ---------------- |
-| Macs Fan Control | 1.5.16 |  |  |
-| Things3 | ✅ |  |  |
-| Xnip | ✅ | ✅ |  |
-| Transmit | ✅ | ✅ |  |
-| BuhoCleaner | ✅ |  |  |
-| Image2Icon | 2.18 | ✅ |  |
-| FileZilla Pro | 3.66.5 | ✅ |  |
-| menubarx | ✅ | ✅ |  |
-| SQLPro Studio | ✅ | ✅ |  |
-| Texifier | 1.9.27 |  |  |
-| Sketch | ✅ | ✅ |  |
-| Omi录屏专家 | ✅ | ✅ |  |
-| CleanShot X | 4.7 |  |  |
-| Aldente Pro | 1.26.1 |  | 暂停支持 |
-| Table Plus | 6.0.4 |  | 暂停支持 |
-| Doppler | ✅ |  |  |
-| Text Scanner | 1.7.5 | ✅ | 终端执行其二进制文件 |
-| 欧陆词典 | ✅ |  |  |
-| Blocs | ✅ |  |  |
-| PlistEdit Pro | ✅ |  |  |
-| Downie 4 | ✅ |  |  |
-| Typora | ✅ |  |  |
-| Stash | 2.6.2 |  |  |
-| App Cleaner | 8.3.1 |  |  |
-| Hype4 | ✅ | ✅ |  |
-| Infuse | ✅ | ✅ |  |
-| Kaleidoscope | ✅ |  |  |
-| Pixelmator Pro Trial | ✅ |  |  |
-| Proxyman | 5.2.0 |  |  |
-| ServerCat | 1.12 | ✅ |  |
-| Core Tunnel | ✅ | ✅ |  |
-| Navicat Premium | ✅ | ✅ | 借鉴 Qiuchenly |
-| Permute 3 | ✅ |  |  |
-| Eon | ✅ |  |  |
-| UctoX 2 | ✅ |  |  |
-| Rottenwood | ✅ |  |  |
-| Judo | ✅ | ✅ | 免登录 有几个功能不能用 |
-| Querious | ✅ |  |  |
-| ForkLift | ✅ |  |  |
-| CleanMyMac-MAS | ✅ | ✅ | 不包括状态栏按钮 |
-| Reveal | 49 (20463) |  |  |
+| 名称                 | 版本     | MAS |  ARM | X86 |备注             |
+| -------------------- | -------- | --- | --- | --- | ---------------- |
+| Macs Fan Control | 1.5.16 |  | ✅ |  |  |
+| Things3 | ✅ |  | ✅ | ✅ |  |
+| Xnip | ✅ | ✅ | ✅ | ✅ |  |
+| Transmit | ✅ | ✅ | ✅ | ✅ |  |
+| BuhoCleaner | ✅ |  | ✅ | ✅ |  |
+| Image2Icon | 2.18 | ✅ | ✅ |  |  |
+| FileZilla Pro | 3.66.5 | ✅ | ✅ |  |  |
+| menubarx | ✅ | ✅ | ✅ | ✅ |  |
+| SQLPro Studio | ✅ | ✅ | ✅ | ✅ |  |
+| Texifier | 1.9.27 |  | ✅ |  |  |
+| Sketch | ✅ | ✅ | ✅ | ✅ |  |
+| Omi录屏专家 | ✅ | ✅ | ✅ | ✅ |  |
+| CleanShot X | 4.7 |  | ✅ |  |  |
+| Aldente Pro | 1.26.1 |  | ✅ |  | 暂停支持 |
+| Table Plus | 6.0.4 |  | ✅ |  | 暂停支持 |
+| Doppler | ✅ |  | ✅ | ✅ |  |
+| Text Scanner | 1.7.5 | ✅ | ✅ |  | 终端执行其二进制文件 |
+| 欧陆词典 | ✅ |  | ✅ | ✅ |  |
+| Blocs | ✅ |  | ✅ | ✅ |  |
+| PlistEdit Pro | ✅ |  | ✅ | ✅ |  |
+| Downie 4 | ✅ |  | ✅ | ✅ |  |
+| Typora | ✅ |  | ✅ | ✅ |  |
+| Stash | 2.6.2 |  | ✅ |  |  |
+| App Cleaner | 8.3.1 |  | ✅ |  |  |
+| Hype4 | ✅ | ✅ | ✅ | ✅ |  |
+| Infuse | ✅ | ✅ | ✅ | ✅ |  |
+| Kaleidoscope | ✅ |  | ✅ | ✅ |  |
+| Pixelmator Pro Trial | ✅ |  | ✅ | ✅ |  |
+| Proxyman | 5.2.0 |  | ✅ |  |  |
+| ServerCat | 1.12 | ✅ | ✅ |  |  |
+| Core Tunnel | ✅ | ✅ | ✅ | ✅ |  |
+| Navicat Premium | ✅ | ✅ | ✅ | ✅ | 借鉴 Qiuchenly |
+| Permute 3 | ✅ |  | ✅ | ✅ |  |
+| Eon | ✅ |  | ✅ | ✅ |  |
+| UctoX 2 | ✅ |  | ✅ | ✅ |  |
+| Rottenwood | ✅ |  | ✅ | ✅ |  |
+| Judo | ✅ | ✅ | ✅ | ✅ | 免登录 有几个功能不能用 |
+| Querious | ✅ |  | ✅ | ✅ |  |
+| ForkLift | ✅ |  | ✅ | ✅ |  |
+| CleanMyMac-MAS | ✅ | ✅ | ✅ | ✅ | 不包括状态栏按钮 |
+| Reveal | 49 (20463) |  | ✅ |  |  |

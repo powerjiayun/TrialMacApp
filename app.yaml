@@ -1,287 +1,369 @@
-- name: Macs Fan Control
-  show_name: ""
+- all_version: 0
+  app_store: 0
+  arm: 1
+  name: Macs Fan Control
+  path: ''
+  remark: ''
+  show_name: ''
   version: 1.5.16
-  path: ""
+  x86: 0
+- all_version: 1
   app_store: 0
-  all_version: 0
-  remark: ""
-- name: Things3
-  show_name: ""
+  arm: 1
+  name: Things3
+  path: ''
+  remark: ''
+  show_name: ''
   version: 3.19.6
-  path: ""
-  app_store: 0
-  all_version: 1
-  remark: ""
-- name: Xnip
-  show_name: ""
+  x86: 1
+- all_version: 1
+  app_store: 1
+  arm: 1
+  name: Xnip
+  path: ''
+  remark: ''
+  show_name: ''
   version: 2.2.3
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 1
-  all_version: 1
-  remark: ""
-- name: Transmit
-  show_name: ""
+  arm: 1
+  name: Transmit
+  path: ''
+  remark: ''
+  show_name: ''
   version: 5.10.4
-  path: ""
-  app_store: 1
-  all_version: 1
-  remark: ""
-- name: BuhoCleaner
-  show_name: ""
+  x86: 1
+- all_version: 1
+  app_store: 0
+  arm: 1
+  name: BuhoCleaner
+  path: ''
+  remark: ''
+  show_name: ''
   version: 1.10.4
-  path: ""
-  app_store: 0
-  all_version: 1
-  remark: ""
-- name: Image2Icon
-  show_name: ""
-  version: "2.18"
-  path: ""
+  x86: 1
+- all_version: 0
   app_store: 1
-  all_version: 0
-  remark: ""
-- name: FileZilla Pro
-  show_name: ""
+  arm: 1
+  name: Image2Icon
+  path: ''
+  remark: ''
+  show_name: ''
+  version: '2.18'
+  x86: 0
+- all_version: 0
+  app_store: 1
+  arm: 1
+  name: FileZilla Pro
+  path: ''
+  remark: ''
+  show_name: ''
   version: 3.66.5
-  path: ""
+  x86: 0
+- all_version: 1
   app_store: 1
-  all_version: 0
-  remark: ""
-- name: menubarx
-  show_name: ""
-  version: ""
-  path: ""
+  arm: 1
+  name: menubarx
+  path: ''
+  remark: ''
+  show_name: ''
+  version: ''
+  x86: 1
+- all_version: 1
   app_store: 1
-  all_version: 1
-  remark: ""
-- name: SQLPro Studio
-  show_name: ""
-  version: "2023.35"
-  path: ""
-  app_store: 1
-  all_version: 1
-  remark: ""
-- name: Texifier
-  show_name: ""
-  version: 1.9.27
-  path: ""
+  arm: 1
+  name: SQLPro Studio
+  path: ''
+  remark: ''
+  show_name: ''
+  version: '2023.35'
+  x86: 1
+- all_version: 0
   app_store: 0
-  all_version: 0
-  remark: ""
-- name: Sketch
-  show_name: ""
-  version: "100"
-  path: ""
+  arm: 1
+  name: Texifier
+  path: ''
+  remark: ''
+  show_name: ''
+  version: 1.9.27
+  x86: 0
+- all_version: 1
   app_store: 1
-  all_version: 1
-  remark: ""
-- name: OmniRecorder
+  arm: 1
+  name: Sketch
+  path: ''
+  remark: ''
+  show_name: ''
+  version: '100'
+  x86: 1
+- all_version: 1
+  app_store: 1
+  arm: 1
+  name: OmniRecorder
+  path: ''
+  remark: ''
   show_name: Omi录屏专家
   version: 1.3.8
-  path: ""
-  app_store: 1
-  all_version: 1
-  remark: ""
-- name: CleanShot X
-  show_name: ""
-  version: "4.7"
-  path: ""
+  x86: 1
+- all_version: 0
   app_store: 0
-  all_version: 0
-  remark: ""
-- name: Aldente Pro
-  show_name: ""
+  arm: 1
+  name: CleanShot X
+  path: ''
+  remark: ''
+  show_name: ''
+  version: '4.7'
+  x86: 0
+- all_version: 0
+  app_store: 0
+  arm: 1
+  name: Aldente Pro
+  path: ''
+  remark: 暂停支持
+  show_name: ''
   version: 1.26.1
-  path: ""
+  x86: 0
+- all_version: 0
   app_store: 0
-  all_version: 0
+  arm: 1
+  name: Table Plus
+  path: ''
   remark: 暂停支持
-- name: Table Plus
-  show_name: ""
+  show_name: ''
   version: 6.0.4
-  path: ""
+  x86: 0
+- all_version: 1
   app_store: 0
-  all_version: 0
-  remark: 暂停支持
-- name: Doppler
-  show_name: ""
+  arm: 1
+  name: Doppler
+  path: ''
+  remark: ''
+  show_name: ''
   version: 2.1.21
-  path: ""
-  app_store: 0
-  all_version: 1
-  remark: ""
-- name: Text Scanner
-  show_name: ""
-  version: 1.7.5
-  path: ""
+  x86: 1
+- all_version: 0
   app_store: 1
-  all_version: 0
+  arm: 1
+  name: Text Scanner
+  path: ''
   remark: 终端执行其二进制文件
-- name: Eudic
+  show_name: ''
+  version: 1.7.5
+  x86: 0
+- all_version: 1
+  app_store: 0
+  arm: 1
+  name: Eudic
+  path: ''
+  remark: ''
   show_name: 欧陆词典
   version: 4.6.6
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: Blocs
-  show_name: ""
-  version: ""
-  path: ""
+  arm: 1
+  name: Blocs
+  path: ''
+  remark: ''
+  show_name: ''
+  version: ''
+  x86: 1
+- all_version: 1
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: PlistEdit Pro
-  show_name: ""
+  arm: 1
+  name: PlistEdit Pro
+  path: ''
+  remark: ''
+  show_name: ''
   version: 1.9.7
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: Downie 4
-  show_name: ""
+  arm: 1
+  name: Downie 4
+  path: ''
+  remark: ''
+  show_name: ''
   version: 4.7.2
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: Typora
-  show_name: ""
+  arm: 1
+  name: Typora
+  path: ''
+  remark: ''
+  show_name: ''
   version: 1.8.10
-  path: ""
+  x86: 1
+- all_version: 0
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: Stash
-  show_name: ""
+  arm: 1
+  name: Stash
+  path: ''
+  remark: ''
+  show_name: ''
   version: 2.6.2
-  path: ""
+  x86: 0
+- all_version: 0
   app_store: 0
-  all_version: 0
-  remark: ""
-- name: App Cleaner
-  show_name: ""
+  arm: 1
+  name: App Cleaner
+  path: ''
+  remark: ''
+  show_name: ''
   version: 8.3.1
-  path: ""
-  app_store: 0
-  all_version: 0
-  remark: ""
-- name: Hype4
-  show_name: ""
+  x86: 0
+- all_version: 1
+  app_store: 1
+  arm: 1
+  name: Hype4
+  path: ''
+  remark: ''
+  show_name: ''
   version: 4.1.18
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 1
-  all_version: 1
-  remark: ""
-- name: Infuse
-  show_name: ""
+  arm: 1
+  name: Infuse
+  path: ''
+  remark: ''
+  show_name: ''
   version: 7.8.4860
-  path: ""
-  app_store: 1
-  all_version: 1
-  remark: ""
-- name: Kaleidoscope
-  show_name: ""
+  x86: 1
+- all_version: 1
+  app_store: 0
+  arm: 1
+  name: Kaleidoscope
+  path: ''
+  remark: ''
+  show_name: ''
   version: 4.5.1
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: Pixelmator Pro Trial
-  show_name: ""
+  arm: 1
+  name: Pixelmator Pro Trial
+  path: ''
+  remark: ''
+  show_name: ''
   version: 3.5.9
-  path: ""
+  x86: 1
+- all_version: 0
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: Proxyman
-  show_name: ""
+  arm: 1
+  name: Proxyman
+  path: ''
+  remark: ''
+  show_name: ''
   version: 5.2.0
-  path: ""
-  app_store: 0
-  all_version: 0
-  remark: ""
-- name: ServerCat
-  show_name: ""
-  version: "1.12"
-  path: ""
+  x86: 0
+- all_version: 0
   app_store: 1
-  all_version: 0
-  remark: ""
-- name: Core Tunnel
-  show_name: ""
+  arm: 1
+  name: ServerCat
+  path: ''
+  remark: ''
+  show_name: ''
+  version: '1.12'
+  x86: 0
+- all_version: 1
+  app_store: 1
+  arm: 1
+  name: Core Tunnel
+  path: ''
+  remark: ''
+  show_name: ''
   version: 3.8.6
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 1
-  all_version: 1
-  remark: ""
-- name: Navicat Premium
-  show_name: ""
-  version: 17.0.6
-  path: ""
-  app_store: 1
-  all_version: 1
+  arm: 1
+  name: Navicat Premium
+  path: ''
   remark: 借鉴 Qiuchenly
-- name: Permute 3
-  show_name: ""
+  show_name: ''
+  version: 17.0.6
+  x86: 1
+- all_version: 1
+  app_store: 0
+  arm: 1
+  name: Permute 3
+  path: ''
+  remark: ''
+  show_name: ''
   version: 3.11.10
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: Eon
-  show_name: ""
+  arm: 1
+  name: Eon
+  path: ''
+  remark: ''
+  show_name: ''
   version: 2.9.12
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: UctoX 2
-  show_name: ""
+  arm: 1
+  name: UctoX 2
+  path: ''
+  remark: ''
+  show_name: ''
   version: 2.9.14
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: Rottenwood
-  show_name: ""
-  version: "1.3"
-  path: ""
-  app_store: 0
-  all_version: 1
-  remark: ""
-- name: Judo
-  show_name: ""
-  version: 7.0.4
-  path: ""
+  arm: 1
+  name: Rottenwood
+  path: ''
+  remark: ''
+  show_name: ''
+  version: '1.3'
+  x86: 1
+- all_version: 1
   app_store: 1
-  all_version: 1
+  arm: 1
+  name: Judo
+  path: ''
   remark: 免登录 有几个功能不能用
-- name: Querious
-  show_name: ""
+  show_name: ''
+  version: 7.0.4
+  x86: 1
+- all_version: 1
+  app_store: 0
+  arm: 1
+  name: Querious
+  path: ''
+  remark: ''
+  show_name: ''
   version: 4.0.13
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 0
-  all_version: 1
-  remark: ""
-- name: ForkLift
-  show_name: ""
+  arm: 1
+  name: ForkLift
+  path: ''
+  remark: ''
+  show_name: ''
   version: 4.1.5
-  path: ""
-  app_store: 0
-  all_version: 1
-  remark: ""
-- name: CleanMyMac-MAS
-  show_name: ""
-  version: 4.15.4
-  path: ""
+  x86: 1
+- all_version: 1
   app_store: 1
-  all_version: 1
-  remark: "不包括状态栏按钮"
-- name: Reveal
-  show_name: ""
-  version: 49 (20463)
-  path: ""
+  arm: 1
+  name: CleanMyMac-MAS
+  path: ''
+  remark: 不包括状态栏按钮
+  show_name: ''
+  version: 4.15.4
+  x86: 1
+- all_version: 0
   app_store: 0
-  all_version: 0
-  remark: ""
+  arm: 1
+  name: Reveal
+  path: ''
+  remark: ''
+  show_name: ''
+  version: 49 (20463)
+  x86: 0
