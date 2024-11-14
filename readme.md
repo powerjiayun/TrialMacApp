@@ -4,7 +4,9 @@
 
 > 整体 UI 设计完全来自 https://github.com/wibus-wee/InjectGUI 非常感谢此项目
 
-![](/img/1.png)
+https://github.com/TrialMacApp/TrialMacApp/blob/master/img/8.mov
+
+<!-- ![](/img/1.png) -->
 
 ## 项目简介
 
