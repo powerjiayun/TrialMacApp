@@ -1,4 +1,4 @@
-<img src="./TrialMacAppGUI/Assets.xcassets/AppIcon.appiconset/icon_1024X1024 1.png" width="200" alt="App icon" align="left"/>
+<img src="./TrialMacAppGUI/Assets.xcassets/AppIcon.appiconset/icon_1024X1024 1.png" width="160" alt="App icon" align="left"/>
 
 <div>
 <h3>TrialMacAppGUI</h3>
@@ -11,11 +11,12 @@
 
 <div align="center">
 
-<a href="https://github.com/TrialMacApp/TrialMacApp/releases"><img src="https://img.shields.io/github/downloads/TrialMacApp/TrialMacApp/total.svg?style=flat" alt="downloads"/></a>
-<a href="https://github.com/TrialMacApp/TrialMacApp/releases"><img src="https://img.shields.io/github/release-pre/TrialMacApp/TrialMacApp.svg?style=flat" alt="latest version"/></a>
-<a href="https://github.com/TrialMacApp/TrialMacApp"><img src="https://img.shields.io/badge/platform-macOS-blue.svg?style=flat" alt="platform"/></a>
-<a href="https://github.com/TrialMacApp/TrialMacApp/stargazers"><img src="https://img.shields.io/github/stars/TrialMacApp/TrialMacApp" alt="GitHub Stars"/></a>
-<a href="https://github.com/TrialMacApp/TrialMacApp/forks"><img src="https://img.shields.io/github/forks/TrialMacApp/TrialMacApp" alt="GitHub Forks"/></a>
+![](https://img.shields.io/github/downloads/TrialMacApp/TrialMacApp/total.svg?style=flat)
+![](https://img.shields.io/github/release-pre/TrialMacApp/TrialMacApp.svg?style=flat)
+![](https://img.shields.io/badge/platform-macOS-blue.svg?style=flat)
+![](https://img.shields.io/github/license/TrialMacApp/TrialMacApp)
+![](https://img.shields.io/github/stars/TrialMacApp/TrialMacApp)
+![](https://img.shields.io/github/forks/TrialMacApp/TrialMacApp)
 
 <br/>
 <br/>
