@@ -3,3 +3,7 @@
 .venv
 /DerivedData
 app.json
+
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
