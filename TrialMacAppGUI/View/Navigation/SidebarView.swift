@@ -10,9 +10,9 @@ import SwiftUI
 struct SidebarView: View {
     @Binding var searchText: String // 搜索框内容
     @Binding var selectedApp: LocalAppInfo?
-
+    
+    @EnvironmentObject var localappManager: LocalAppManager
     @State private var localApps: [LocalAppInfo] = []
-    @StateObject var localappManager: LocalAppManager = .shared
 
     var filteredApps: [LocalAppInfo] {
         if searchText.isEmpty {

@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+      "shouldTranslate" : false
+    },
     "✅" : {
       "shouldTranslate" : false
     },
@@ -14,6 +17,9 @@
           }
         }
       }
+    },
+    "❌" : {
+      "shouldTranslate" : false
     },
     "❌ Task %@ failed." : {
       "extractionState" : "manual",
@@ -325,9 +331,6 @@
         }
       }
     },
-    "NO" : {
-      "shouldTranslate" : false
-    },
     "No logs yet" : {
       "localizations" : {
         "zh-Hans" : {
@@ -456,17 +459,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在扫描app目录"
-          }
-        }
-      }
-    },
-    "Search apps" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "搜索app"
           }
         }
       }

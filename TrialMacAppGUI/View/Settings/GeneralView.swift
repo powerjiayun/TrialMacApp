@@ -14,10 +14,10 @@ struct GeneralView: View {
     
     private let updater: SPUUpdater
     
-    init(updater: SPUUpdater) {
-        self.updater = updater
-        self._automaticallyChecksForUpdates = State(initialValue: updater.automaticallyChecksForUpdates)
-        self._automaticallyDownloadsUpdates = State(initialValue: updater.automaticallyDownloadsUpdates)
+    init() {
+        self.updater = UpdaterManager.shared.updater
+        _automaticallyChecksForUpdates = State(initialValue: updater.automaticallyChecksForUpdates)
+        _automaticallyDownloadsUpdates = State(initialValue: updater.automaticallyDownloadsUpdates)
     }
     
     var body: some View {

@@ -5,16 +5,14 @@
 //  Created by TrialMacApp on 12/7/24.
 //
 
-import SwiftUI
 import Sparkle
+import SwiftUI
 
 struct SettingsView: View {
-    let updater: SPUUpdater
-    
     var body: some View {
         VStack(spacing: 0) {
             TabView {
-                GeneralView(updater: updater)
+                GeneralView()
                     .tabItem {
                         Label("General", systemImage: "gear")
                     }

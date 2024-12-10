@@ -9,11 +9,11 @@ import SwiftUI
 
 struct SupportedAppView: View {
     @Environment(\.dismiss) var dismiss
-    
+
     @EnvironmentObject var supportedAppManager: SupportedAppManager
     @State private var supportedApps: [SupportedApp] = []
     @State var order: [KeyPathComparator<SupportedApp>] = [.init(\.name, order: .forward)] // 排序条件
-    
+
     var body: some View {
         NavigationStack {
             VStack {
@@ -24,27 +24,27 @@ struct SupportedAppView: View {
                         TableColumn("Name") { app in
                             CopyableText(value: app.name)
                         }
-                            
+
                         TableColumn("MAS") {
-                            Text($0.MAS ? "✅" : "NO")
+                            Text($0.MAS ? "✅" : "")
                         }
                         .width(32)
-                            
+
                         TableColumn("X86") {
-                            Text($0.x86 ? "✅" : "NO")
+                            Text($0.x86 ? "✅" : "❌")
                         }
                         .width(32)
-                            
+
                         TableColumn("Version") {
                             Text($0.anyVersion ? "✅" : $0.version)
                         }
                         .width(72)
-                            
+
                         TableColumn("Remark") { app in
                             CopyableText(value: app.remark ?? "")
                         }
                     }
-                    .frame(minWidth: 500)
+                    .padding(.top, 6)
                     .frame(width: 660, height: 300) // ？？？？
                     .onChange(of: order) { newOrder in
                         print(newOrder)
@@ -52,8 +52,7 @@ struct SupportedAppView: View {
                             supportedApps.sort(using: newOrder) // 排序条件改变时对数据重排序
                         }
                     }
-                    .scenePadding() // 这个是边缘的样式
-                    .tableStyle(.bordered)
+                    .tableStyle(.inset)
                 }
             }
             .task {
@@ -71,7 +70,7 @@ struct SupportedAppView: View {
             }
         }
     }
-    
+
     struct CopyableText<T>: View where T: CustomStringConvertible {
         let value: T
 

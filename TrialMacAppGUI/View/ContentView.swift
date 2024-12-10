@@ -9,10 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     @AppStorage("showAdminPrivilegeView") private var showAdminPrivilegeView: Bool = false
-    @EnvironmentObject var supportedAppManager: SupportedAppManager
     @StateObject var localappManager: LocalAppManager = .shared
-    // 这个用来显示所有受支持的app
-    @State private var isShowAllSupportedApp = false
+    @StateObject var supportedAppManager: SupportedAppManager = .shared
+    
+    @State private var isShowAllSupportedApp = false // sheet显示
 
     @State private var selectedApp: LocalAppInfo?
     @State private var searchText: String = ""
@@ -20,6 +20,7 @@ struct ContentView: View {
     var body: some View {
         NavigationSplitView {
             SidebarView(searchText: $searchText, selectedApp: $selectedApp)
+                .environmentObject(localappManager)
         } detail: {
             if let app = selectedApp {
                 AppDetailView(localAppInfo: app)

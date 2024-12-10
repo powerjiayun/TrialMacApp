@@ -9,6 +9,7 @@
 import Sparkle
 import SwiftUI
 
+// https://sparkle-project.org/documentation/programmatic-setup/#create-an-updater-in-swiftui
 // This view model class publishes when new updates can be checked by the user
 final class CheckForUpdatesViewModel: ObservableObject {
     @Published var canCheckForUpdates = false

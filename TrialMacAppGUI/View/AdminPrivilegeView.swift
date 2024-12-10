@@ -13,7 +13,7 @@ struct AdminPrivilegeView: View {
     @AppStorage("showAdminPrivilegeView") private var showAdminPrivilegeView: Bool = true
 
     @State private var showErrorAlert: Bool = false
-    @State private var errorMessage: String? = ""
+    @State private var errorMessage: String?
 
     @State private var isLoading: Bool = false
 
@@ -39,25 +39,31 @@ struct AdminPrivilegeView: View {
                 .controlSize(.large)
                 .disableAutocorrection(true)
                 .padding()
-            
-            VStack {
-                if let errorMessage = errorMessage {
-                    Text(errorMessage)
-                        .foregroundColor(.red)
-                        .font(.subheadline)
-                        .padding(.top, 10)
-                        .padding(.bottom, 20)
+                .onChange(of: password) { _ in
+                    errorMessage = nil
                 }
-                
+
+            if let errorMessage = errorMessage {
+                Text(errorMessage)
+                    .foregroundColor(.red)
+                    .font(.subheadline)
+                    .padding(.top, 8)
+                    .padding(.bottom, 10)
+            }
+
+            VStack {
                 HStack {
                     Button(action: {
                         isLoading = true
-                        Task {
-                            let success = await checkAndSavePassword(password: password)
-                            if success {
-                                showAdminPrivilegeView = false
+
+                        DispatchQueue.main.async {
+                            Task {
+                                let success = await checkAndSavePassword(password: password)
+                                if success {
+                                    showAdminPrivilegeView = false
+                                }
+                                isLoading = false
                             }
-                            isLoading = false
                         }
                     }) {
                         if isLoading {
@@ -76,6 +82,7 @@ struct AdminPrivilegeView: View {
                     }
                 }
             }
+            .padding(.bottom, 10)
             Spacer()
         }
         .padding()

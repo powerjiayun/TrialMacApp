@@ -44,6 +44,6 @@ struct AboutView: View {
             }
             .padding()
         }
-        .frame(minWidth: 400)
+        .frame(width: 560)
     }
 }
