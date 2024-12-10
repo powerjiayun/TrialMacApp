@@ -15,10 +15,11 @@ struct ContentView: View {
     @State private var isShowAllSupportedApp = false
 
     @State private var selectedApp: LocalAppInfo?
+    @State private var searchText: String = ""
 
     var body: some View {
         NavigationSplitView {
-            SidebarView(selectedApp: $selectedApp)
+            SidebarView(searchText: $searchText, selectedApp: $selectedApp)
         } detail: {
             if let app = selectedApp {
                 AppDetailView(localAppInfo: app)
@@ -36,6 +37,7 @@ struct ContentView: View {
         .sheet(isPresented: $showAdminPrivilegeView) {
             AdminPrivilegeView()
         }
+        .searchable(text: $searchText, placement: .sidebar)
     }
 
     // 功能合集

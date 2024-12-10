@@ -461,6 +461,7 @@
       }
     },
     "Search apps" : {
+      "extractionState" : "stale",
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
@@ -638,6 +639,16 @@
     },
     "X86" : {
       "shouldTranslate" : false
+    },
+    "You can right-click to copy the name and remarks" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以右键复制名称和备注"
+          }
+        }
+      }
     },
     "You should not see this, and even if you do, you should not modify the content, as it may cause the app to crash." : {
       "extractionState" : "manual",

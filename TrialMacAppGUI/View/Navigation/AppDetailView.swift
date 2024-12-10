@@ -110,7 +110,6 @@ struct AppDetailView: View {
     private var actionButtonsSection: some View {
         HStack {
             Button {
-//                NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: localAppInfo.appFolder)
                 DispatchQueue.global(qos: .userInitiated).async {
                     // 使用后台线程执行打开 App 的操作
                     NSWorkspace.shared.open(URL(fileURLWithPath: localAppInfo.appFolder))
@@ -194,23 +193,20 @@ struct AppDetailView: View {
         }
     }
     
-    //////////
-    ///
     private func setupInitialLogs() {
         scriptLogs.append("Started monitoring \(localAppInfo.name)")
         scriptLogs.append("Bundle identifier: \(localAppInfo.bundleId)")
     }
     
-//    func isAppSupported() -> Bool {
-//        var isSupported = false
-    // #if arch(x86_64)
-//        if localAppInfo.x86 {
-//            isSupported = true
+    // 判断版本是否支持
+//    private func versionCheck() -> Bool {
+//        for app in localappManager.localApps {
+//            if app.bundleId == localAppInfo.bundleId {
+//                if app.anyVersion {
+//                    return true
+//                }
+//            }
 //        }
-    // #elseif arch(arm64)
-//        isSupported = true
-    // #endif
-//        return isSupported
 //    }
 
     func isAppSupported() -> Bool {

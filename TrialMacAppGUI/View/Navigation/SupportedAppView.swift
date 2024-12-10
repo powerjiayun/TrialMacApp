@@ -12,68 +12,63 @@ struct SupportedAppView: View {
     
     @EnvironmentObject var supportedAppManager: SupportedAppManager
     @State private var supportedApps: [SupportedApp] = []
-    
     @State var order: [KeyPathComparator<SupportedApp>] = [.init(\.name, order: .forward)] // 排序条件
-        
+    
     var body: some View {
-        VStack {
-            Text("All Supported Apps")
-                .padding(.top, 10)
-            
-            if supportedApps.isEmpty {
-                ProgressView("Loading...")
-            } else {
-                Table(supportedApps, sortOrder: $order) {
-                    TableColumn("Name") { app in
-                        CopyableText(value: app.name)
+        NavigationStack {
+            VStack {
+                if supportedApps.isEmpty {
+                    ProgressView("Loading...")
+                } else {
+                    Table(supportedApps, sortOrder: $order) {
+                        TableColumn("Name") { app in
+                            CopyableText(value: app.name)
+                        }
+                            
+                        TableColumn("MAS") {
+                            Text($0.MAS ? "✅" : "NO")
+                        }
+                        .width(32)
+                            
+                        TableColumn("X86") {
+                            Text($0.x86 ? "✅" : "NO")
+                        }
+                        .width(32)
+                            
+                        TableColumn("Version") {
+                            Text($0.anyVersion ? "✅" : $0.version)
+                        }
+                        .width(72)
+                            
+                        TableColumn("Remark") { app in
+                            CopyableText(value: app.remark ?? "")
+                        }
                     }
-                    
-                    TableColumn("MAS") {
-                        Text($0.MAS ? "✅" : "NO")
+                    .frame(minWidth: 500)
+                    .frame(width: 660, height: 300) // ？？？？
+                    .onChange(of: order) { newOrder in
+                        print(newOrder)
+                        withAnimation {
+                            supportedApps.sort(using: newOrder) // 排序条件改变时对数据重排序
+                        }
                     }
-                    .width(32)
-                    
-                    TableColumn("X86") {
-                        Text($0.x86 ? "✅" : "NO")
-                    }
-                    .width(32)
-                    
-                    TableColumn("Version") {
-                        Text($0.anyVersion ? "✅" : $0.version)
-                    }
-                    .width(72)
-                    
-                    TableColumn("Remark") { app in
-                        CopyableText(value: app.remark ?? "")
-                    }
+                    .scenePadding() // 这个是边缘的样式
+                    .tableStyle(.bordered)
                 }
-                .frame(minWidth: 500)
-                .frame(width: 660, height: 300) // ？？？？
-                .onChange(of: order) { newOrder in
-                    print(newOrder)
-                    withAnimation {
-                        supportedApps.sort(using: newOrder) // 排序条件改变时对数据重排序
-                    }
+            }
+            .task {
+                supportedApps = supportedAppManager.getSupportedApps()
+                supportedApps.sort(using: order)
+            }
+            .navigationTitle("All Supported Apps") // 主标题
+            .navigationSubtitle("You can right-click to copy the name and remarks") // 副标题
+        }
+        .toolbar { // 替换自己实现的Button，这里可以加更多自定义功能导航到 placement可查看
+            ToolbarItem(placement: .cancellationAction) {
+                Button("Close") {
+                    dismiss()
                 }
-                .scenePadding() // 这个是边缘的样式
-                .tableStyle(.bordered)
             }
-        }
-        .task {
-            supportedApps = supportedAppManager.getSupportedApps()
-            supportedApps.sort(using: order)
-        }
-        
-        HStack {
-            Spacer()
-            
-            Button {
-                dismiss()
-            } label: {
-                Text("Close")
-            }
-            .padding(.bottom, 16)
-            .padding(.trailing, 16)
         }
     }
     
