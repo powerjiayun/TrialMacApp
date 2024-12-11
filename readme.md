@@ -34,6 +34,7 @@
 ## Major features
 
 - Swift native application
+- SwiftUI writes interactive interface and rejects Appkit
 - Passwords are encrypted using keychains
 - Native code writing injection plug-ins
 - **The code is open source and free**
@@ -66,6 +67,7 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 
 ## Acknowledgements
 
+- chatgpt - [chatgpt](https://chatgpt.com)
 - jmpews - [Dobby](https://github.com/jmpews/Dobby)
 - QiuChenlyOpenSource - [SearchHexCodeInFile](https://github.com/QiuChenlyOpenSource/SearchHexCodeInFile)
 - alexzielenski - [optool](https://github.com/alexzielenski/optool)

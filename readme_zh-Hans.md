@@ -27,13 +27,14 @@
 
 <hr>
 
-## 支持的app
+## 支持的 app
 
 <a href="app.md">点我查看</a>
 
 ## 特点
 
-- Swift原生应用
+- Swift 原生应用
+- SwiftUI 编写交互界面 拒绝 Appkit
 - 密码使用钥匙串加密
 - 原生代码编写注入插件
 - **代码开源且免费**
@@ -66,6 +67,7 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 
 ## 感谢以下项目
 
+- chatgpt - [chatgpt](https://chatgpt.com)
 - jmpews - [Dobby](https://github.com/jmpews/Dobby)
 - QiuChenlyOpenSource - [SearchHexCodeInFile](https://github.com/QiuChenlyOpenSource/SearchHexCodeInFile)
 - alexzielenski - [optool](https://github.com/alexzielenski/optool)
