@@ -115,6 +115,16 @@
         }
       }
     },
+    "App Details" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用详情"
+          }
+        }
+      }
+    },
     "Are you sure you want to initialize dependencies? You should only select this option if the software prompts that initialization failed." : {
       "extractionState" : "manual",
       "localizations" : {
@@ -544,6 +554,9 @@
           }
         }
       }
+    },
+    "TrialMacAppGUI" : {
+      "shouldTranslate" : false
     },
     "Update Settings" : {
       "localizations" : {

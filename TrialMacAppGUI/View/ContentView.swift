@@ -39,6 +39,7 @@ struct ContentView: View {
             AdminPrivilegeView()
         }
         .searchable(text: $searchText, placement: .sidebar)
+        .navigationTitle(selectedApp != nil ? "App Details" : "TrialMacAppGUI")
     }
 
     // 功能合集
@@ -52,6 +53,8 @@ struct ContentView: View {
 
             Button {
                 localappManager.loadData()
+                selectedApp = nil
+                searchText = ""
             } label: {
                 Label("Refresh app list", systemImage: "arrow.clockwise")
             }

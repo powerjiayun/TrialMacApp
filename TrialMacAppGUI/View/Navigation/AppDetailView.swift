@@ -38,7 +38,6 @@ struct AppDetailView: View {
             }
             .padding()
         }
-        .navigationTitle(localAppInfo.name)
         .sheet(isPresented: $showLicense) {
             licenseInfoView(user: localAppInfo.licenseUser, code: localAppInfo.licenseCode)
         }
