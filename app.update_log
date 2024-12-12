@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Logs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>更新日志</title>
   <style>
     * {
       margin: 0;
@@ -123,143 +123,181 @@
       display: flex;
       align-items: center;
     }
+
+    .language-switch {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      /* 改为 left: 10px; 可以将按钮放到左上角 */
+      font-size: 14px;
+    }
+
+    .language-switch a {
+      text-decoration: none;
+      margin: 0 5px;
+      color: blue;
+    }
+
+    .language-switch a.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
   </style>
 </head>
 
 <body>
+  <div class="language-switch">
+    <a href="?lang=en" id="english">English</a> |
+    <a href="?lang=zh" id="chinese">简体中文</a>
+  </div>
   <div class="header">
-    <h1>更新日志</h1>
+    <h1 data-en="Update Log" data-zh="更新日志"></h1>
   </div>
   <div class="version-block">
     <h2>1.2-19</h2>
     <ul>
-      <li>查看历史更新记录</li>
+      <li data-en="View historical updates" data-zh="查看历史更新记录"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-18</h2>
     <ul>
-      <li>添加配置文件</li>
+      <li data-en="Add configuration files" data-zh="添加配置文件"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-17</h2>
     <ul>
-      <li>更新注入库</li>
-      <li>支持iStatistica Pro</li>
-      <li>支持iReal Pro</li>
-      <li>支持Mission Control Plus</li>
-      <li>支持Tubbie</li>
-      <li>支持Batteries</li>
-      <li>支持One Switch</li>
-      <li>支持Moment</li>
+      <li data-en="Update injection library" data-zh="更新注入库"></li>
+      <li data-en="Support iStatistica Pro" data-zh="支持iStatistica Pro"></li>
+      <li data-en="Support iReal Pro" data-zh="支持iReal Pro"></li>
+      <li data-en="Support Mission Control Plus" data-zh="支持Mission Control Plus"></li>
+      <li data-en="Support Tubbie" data-zh="支持Tubbie"></li>
+      <li data-en="Support Batteries" data-zh="支持Batteries"></li>
+      <li data-en="Support One Switch" data-zh="支持One Switch"></li>
+      <li data-en="Support Moment" data-zh="支持Moment"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-16</h2>
     <ul>
-      <li>更改密码窗口UI问题</li>
-      <li>优化代码</li>
+      <li data-en="Fix password window UI issues" data-zh="更改密码窗口UI问题"></li>
+      <li data-en="Optimize code" data-zh="优化代码"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-15</h2>
     <ul>
-      <li>整体重写UI</li>
-      <li>去除程序首次打开弹窗</li>
-      <li>优化体验</li>
+      <li data-en="Completely rewrite UI" data-zh="整体重写UI"></li>
+      <li data-en="Remove first launch popup" data-zh="去除程序首次打开弹窗"></li>
+      <li data-en="Optimize user experience" data-zh="优化体验"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-14</h2>
     <ul>
-      <li>添加 Aldente Pro 激活码</li>
+      <li data-en="Add Aldente Pro activation code" data-zh="添加 Aldente Pro 激活码"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-13</h2>
     <ul>
-      <li>Aldente Pro全版本</li>
-      <li>优化密码框样式</li>
+      <li data-en="Full version of Aldente Pro" data-zh="Aldente Pro全版本"></li>
+      <li data-en="Optimize password box style" data-zh="优化密码框样式"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-12</h2>
     <ul>
-      <li>App Cleaner & Uninstaller 8.4.3更新</li>
+      <li data-en="Update App Cleaner & Uninstaller to 8.4.3" data-zh="App Cleaner & Uninstaller 8.4.3更新"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-11</h2>
     <ul>
-      <li>修复按钮bug</li>
+      <li data-en="Fix button bug" data-zh="修复按钮bug"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-10</h2>
     <ul>
-      <li>UI大改动</li>
+      <li data-en="Major UI changes" data-zh="UI大改动"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-9</h2>
     <ul>
-      <li>添加 MarginNote 3</li>
+      <li data-en="Add MarginNote 3" data-zh="添加 MarginNote 3"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-8</h2>
     <ul>
-      <li>添加更新日志查看</li>
-      <li>添加 MarginNote 4</li>
+      <li data-en="Add update log viewing" data-zh="添加更新日志查看"></li>
+      <li data-en="Add MarginNote 4" data-zh="添加 MarginNote 4"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-7</h2>
     <ul>
-      <li>更改初始化</li>
-      <li>更改激活流程</li>
+      <li data-en="Change initialization" data-zh="更改初始化"></li>
+      <li data-en="Change activation process" data-zh="更改激活流程"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-6</h2>
     <ul>
-      <li>更改初始化</li>
-      <li>设置内容变更</li>
+      <li data-en="Change initialization" data-zh="更改初始化"></li>
+      <li data-en="Modify settings content" data-zh="设置内容变更"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-5</h2>
     <ul>
-      <li>更新文件集成</li>
-      <li>添加更新日志</li>
+      <li data-en="Update file integration" data-zh="更新文件集成"></li>
+      <li data-en="Add update log" data-zh="添加更新日志"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2-4</h2>
     <ul>
-      <li>更新xml</li>
+      <li data-en="Update XML" data-zh="更新xml"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.2</h2>
     <ul>
-      <li>支持x86</li>
-      <li>添加更新日志</li>
+      <li data-en="Support x86" data-zh="支持x86"></li>
+      <li data-en="Add update log" data-zh="添加更新日志"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.1</h2>
     <ul>
-      <li>添加app自动更新</li>
+      <li data-en="Add app auto-update" data-zh="添加app自动更新"></li>
     </ul>
   </div>
   <div class="version-block">
     <h2>1.0</h2>
     <ul>
-      <li>新版发布</li>
+      <li data-en="Initial release" data-zh="新版发布"></li>
     </ul>
   </div>
+
+  <script>
+    // 获取当前 URL 中的语言参数
+    const urlParams = new URLSearchParams(window.location.search);
+    const lang = urlParams.get('lang') || 'en'; // 默认语言为中文
+
+    // 根据语言切换页面内容
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute(`data-${lang}`);
+    });
+
+    // 设置当前语言按钮为高亮状态
+    const activeButtonId = lang === 'en' ? 'english' : 'chinese';
+    document.getElementById(activeButtonId).classList.add('active');
+  </script>
 </body>
 
 </html>
