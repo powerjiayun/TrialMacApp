@@ -65,6 +65,11 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 
 - [Sparkle](https://github.com/sparkle-project/Sparkle)
 
+## FAQ
+
+Q: 执行注入后软件无法安装 helper
+A: 我还没有对 helper 做处理，先在未注入状态下安装 helper，然后再注入
+
 ## 感谢以下项目
 
 - chatgpt - [chatgpt](https://chatgpt.com)

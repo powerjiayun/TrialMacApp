@@ -65,6 +65,11 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 
 - [Sparkle](https://github.com/sparkle-project/Sparkle)
 
+## FAQ
+
+Q: After executing the injection, the software cannot install the helper
+A: I haven't processed the helper yet. I first install the helper in the uninjected state and then inject it
+
 ## Acknowledgements
 
 - chatgpt - [chatgpt](https://chatgpt.com)
