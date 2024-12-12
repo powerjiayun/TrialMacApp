@@ -558,6 +558,9 @@
     "TrialMacAppGUI" : {
       "shouldTranslate" : false
     },
+    "Update Logs" : {
+
+    },
     "Update Settings" : {
       "localizations" : {
         "zh-Hans" : {

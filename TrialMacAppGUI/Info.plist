@@ -911,5 +911,16 @@
 			<true/>
 		</dict>
 	</array>
+	<key>UpdateLogs</key>
+	<array>
+		<dict>
+			<key>content</key>
+			<array>
+				<string>添加配置文件</string>
+			</array>
+			<key>version</key>
+			<string>1.2-18</string>
+		</dict>
+	</array>
 </dict>
 </plist>

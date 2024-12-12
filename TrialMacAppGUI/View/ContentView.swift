@@ -46,6 +46,13 @@ struct ContentView: View {
     private var toolbarContent: some ToolbarContent {
         ToolbarItemGroup(placement: .automatic) {
             Button {
+                let windowController = UpdateLogWindowController()
+                windowController.show()
+            } label: {
+                Label("Update Logs", systemImage: "info.bubble.rtl")
+            }
+            
+            Button {
                 showAdminPrivilegeView = true
             } label: {
                 Label("Enter password again", systemImage: "lock")
