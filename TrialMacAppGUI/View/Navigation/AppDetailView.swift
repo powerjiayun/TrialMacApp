@@ -304,7 +304,12 @@ struct AppDetailView: View {
     
     private func codesign() -> (String, Bool) {
         let appName = fixPath(path: localAppInfo.appName)
-        let command = "codesign -f -s - --all-architectures --deep /Applications/\(appName)"
+        var command = ""
+        if localAppInfo.bundleId == "com.massimobiolcati.irealbookmac" {
+            command = "codesign -f -s - --all-architectures Applications/\(appName)"
+        } else {
+            command = "codesign -f -s - --all-architectures --deep /Applications/\(appName)"
+        }
         var success = false
         
         if let output = Utils.runSudoShellCommandByScriptWithPwd(command, password: password) {

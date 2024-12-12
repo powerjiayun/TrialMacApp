@@ -131,6 +131,19 @@
     <h1>更新日志</h1>
   </div>
   <div class="version-block">
+    <h2>1.2-17</h2>
+    <ul>
+      <li>更新注入库</li>
+      <li>支持iStatistica Pro</li>
+      <li>支持iReal Pro</li>
+      <li>支持Mission Control Plus</li>
+      <li>支持Tubbie</li>
+      <li>支持Batteries</li>
+      <li>支持One Switch</li>
+      <li>支持Moment</li>
+    </ul>
+  </div>
+  <div class="version-block">
     <h2>1.2-16</h2>
     <ul>
       <li>更改密码窗口UI问题</li>

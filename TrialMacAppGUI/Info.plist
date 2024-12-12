@@ -203,6 +203,8 @@
 			<string>TrialMacApp@0.0.0.0.mac</string>
 			<key>name</key>
 			<string>Aldente Pro</string>
+			<key>remark</key>
+			<string>先执行注入，再去使用激活码激活</string>
 			<key>version</key>
 			<string>1.28.4</string>
 			<key>x86</key>
@@ -572,7 +574,7 @@
 			<key>MAS</key>
 			<true/>
 			<key>anyVersion</key>
-			<true/>
+			<false/>
 			<key>bundleId</key>
 			<string>com.macpaw.CleanMyMac-mas</string>
 			<key>name</key>
@@ -793,6 +795,118 @@
 			<string>MarginNote 3</string>
 			<key>version</key>
 			<string>3.7.29</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>imagetasks.iStatistica-Pro</string>
+			<key>name</key>
+			<string>iStatistica Pro</string>
+			<key>remark</key>
+			<string>https://www.imagetasks.com/istatistica/pro</string>
+			<key>version</key>
+			<string>5.2</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>com.massimobiolcati.irealbookmac</string>
+			<key>name</key>
+			<string>iReal Pro</string>
+			<key>remark</key>
+			<string>https://www.irealpro.com</string>
+			<key>version</key>
+			<string>2024.10</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>io.fadel.MissionControlPlus</string>
+			<key>name</key>
+			<string>Mission Control Plus</string>
+			<key>remark</key>
+			<string>https://www.fadel.io/missioncontrolplus</string>
+			<key>version</key>
+			<string>1.24</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>io.fadel.Tubbie</string>
+			<key>name</key>
+			<string>Tubbie</string>
+			<key>remark</key>
+			<string>https://www.fadel.io/tubbie</string>
+			<key>version</key>
+			<string>0.9.4</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>io.fadel.Batteries</string>
+			<key>name</key>
+			<string>Batteries</string>
+			<key>remark</key>
+			<string>https://www.fadel.io/batteries</string>
+			<key>version</key>
+			<string>2.3.3</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>studio.fireball.OneSwitch</string>
+			<key>name</key>
+			<string>One Switch</string>
+			<key>remark</key>
+			<string>https://fireball.studio/oneswitch</string>
+			<key>version</key>
+			<string>1.34.2</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>studio.fireball.moment</string>
+			<key>name</key>
+			<string>Moment</string>
+			<key>remark</key>
+			<string>https://fireball.studio/moment</string>
+			<key>version</key>
+			<string>1.5.1</string>
 			<key>x86</key>
 			<true/>
 		</dict>

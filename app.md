@@ -19,9 +19,9 @@
 | 9 | SQLPro Studio | any | ✅ | ✅ |  |
 | 10 | Texifier | 1.9.27 |  |  |  |
 | 11 | Sketch | any | ✅ | ✅ |  |
-| 12 | Omi录屏专家 | any | ✅ | ✅ |  |
+| 12 | Screen Recorder by Omi | any | ✅ | ✅ |  |
 | 13 | CleanShot X | 4.7 |  |  |  |
-| 14 | Aldente Pro | any |  | ✅ | email:TrialMacApp@0.0.0.0.mac  code:TRIALMAC-APPS-HACK-FROM-TRIALMACAPPS |
+| 14 | Aldente Pro | any |  | ✅ | 先执行注入，再去使用激活码激活 |
 | 15 | Table Plus | 6.0.4 |  |  | 暂停支持 |
 | 16 | Doppler | any |  | ✅ |  |
 | 17 | Text Scanner | 1.7.5 | ✅ |  | 暂停支持 |
@@ -56,9 +56,16 @@
 | 46 | PDF Editor | any | ✅ | ✅ | https://apps.apple.com/gb/app/pdf-editor-for-adobe-pdf-file/id6469578160 |
 | 47 | Notebooks | any |  | ✅ | https://www.notebooksapp.com/mac/ |
 | 48 | Final Cut Pro Trial | any |  | ✅ | 每次打开都会提示购买，忽略就行 |
-| 49 | Mp3tag | any |  |  | 输入任意激活信息点激活 |
+| 49 | Mp3tag | 1.8.25 |  |  | 输入任意激活信息点激活 |
 | 50 | Ulysses | any | ✅ | ✅ |  |
 | 51 | Logic Pro | any |  | ✅ |  |
 | 52 | 即刻转换 | any | ✅ | ✅ |  |
 | 53 | MarginNote 4 | any | ✅ | ✅ | GUI打开会有问题，自己程序坞内打开 |
 | 54 | MarginNote 3 | any | ✅ | ✅ |  |
+| 55 | iStatistica Pro | any |  | ✅ | https://www.imagetasks.com/istatistica/pro |
+| 56 | iReal Pro | any |  | ✅ | https://www.irealpro.com |
+| 57 | Mission Control Plus | any |  | ✅ | https://www.fadel.io/missioncontrolplus |
+| 58 | Tubbie | any |  | ✅ | https://www.fadel.io/tubbie |
+| 59 | Batteries | any |  | ✅ | https://www.fadel.io/batteries |
+| 60 | One Switch | any |  | ✅ | https://fireball.studio/oneswitch |
+| 61 | Moment | any |  | ✅ | https://fireball.studio/moment |
