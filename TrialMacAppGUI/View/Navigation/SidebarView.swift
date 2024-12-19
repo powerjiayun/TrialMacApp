@@ -10,15 +10,22 @@ import SwiftUI
 struct SidebarView: View {
     @Binding var searchText: String // 搜索框内容
     @Binding var selectedApp: LocalAppInfo?
-    
+    @Binding var isSupported: Bool
+
     @EnvironmentObject var localappManager: LocalAppManager
     @State private var localApps: [LocalAppInfo] = []
 
     var filteredApps: [LocalAppInfo] {
-        if searchText.isEmpty {
+        if searchText.isEmpty && !isSupported {
             return localApps
-        } else {
+        } else if !searchText.isEmpty && !isSupported {
             return localApps.filter { $0.name.lowercased().contains(searchText.lowercased()) }
+        } else if searchText.isEmpty && isSupported {
+            return localApps.filter { $0.canActivate }
+        } else {
+            return localApps.filter {
+                $0.name.lowercased().contains(searchText.lowercased()) && $0.canActivate
+            }
         }
     }
 
