@@ -559,7 +559,14 @@
       "shouldTranslate" : false
     },
     "Update Logs" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新日志"
+          }
+        }
+      }
     },
     "Update Settings" : {
       "localizations" : {
@@ -665,6 +672,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你应该看不到这里，就算看到了你也不应该动里面的东西，修改后可能导致app奔溃"
+          }
+        }
+      }
+    },
+    "You should uninstall the app and reinstall it because you are missing necessary files" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你应该卸载应用程序并重新安装，因为你丢失了必要的文件"
           }
         }
       }

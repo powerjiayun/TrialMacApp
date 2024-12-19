@@ -910,6 +910,54 @@
 			<key>x86</key>
 			<true/>
 		</dict>
+		<dict>
+			<key>MAS</key>
+			<true/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>com.microsoft.Excel</string>
+			<key>name</key>
+			<string>Microsoft Excel</string>
+			<key>remark</key>
+			<string>第一次打开可能会提示购买，只读模式打开一次后退出重开即可</string>
+			<key>version</key>
+			<string>16.92</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<true/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>com.microsoft.Powerpoint</string>
+			<key>name</key>
+			<string>Microsoft PowerPoint</string>
+			<key>remark</key>
+			<string>第一次打开可能会提示购买，只读模式打开一次后退出重开即可</string>
+			<key>version</key>
+			<string>16.92</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<true/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>com.microsoft.Word</string>
+			<key>name</key>
+			<string>Microsoft Word</string>
+			<key>remark</key>
+			<string>第一次打开可能会提示购买，只读模式打开一次后退出重开即可</string>
+			<key>version</key>
+			<string>16.92</string>
+			<key>x86</key>
+			<true/>
+		</dict>
 	</array>
 	<key>UpdateLogs</key>
 	<array>

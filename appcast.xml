@@ -5,14 +5,28 @@
         <item>
             <title>1.2</title>
             <pubDate>Thu, 31 Oct 2024 11:12:49 +0800</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-20/TrialMacAppGUI.tar" length="9395712" type="application/octet-stream" sparkle:edSignature="FQS/I+lb43nakUm61/kCo8uc/4CEjN4AJkBZ1QPTNfbnx7DnbKc+aa7jYS2fLagF0jqFISDPfV80M/zDd5l7AQ=="/>
+        <description><![CDATA[<h2>1.2-20</h2>
+<ul>
+<li>支持Microsoft Excel</li>
+<li>支持Microsoft PowerPoint</li>
+<li>支持Microsoft Word</li>
+</ul>]]></description></item>
+        <item>
+            <title>1.2</title>
+            <pubDate>Thu, 31 Oct 2024 11:12:49 +0800</pubDate>
             <sparkle:version>19</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-19/TrialMacAppGUI.tar" length="9389568" type="application/octet-stream" sparkle:edSignature="G7M80Y3L6ORyVgIFFuYP8EDOjuCHzYrNYIbO26eT3pTG4IoncFhyKQUAmrG273qGUtpxZtE+UQ6PsFp3qjHoAw=="/>
-        <description><![CDATA[<h2>1.2-19</h2>
-<ul>
-<li>查看历史更新记录</li>
-</ul>]]></description></item>
+            <description>&lt;h2&gt;1.2-19&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;查看历史更新记录&lt;/li&gt;
+&lt;/ul&gt;</description>
+        </item>
         <item>
             <title>1.2</title>
             <pubDate>Thu, 31 Oct 2024 11:12:49 +0800</pubDate>
@@ -20,14 +34,6 @@
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-18/TrialMacAppGUI.tar" length="9263104" type="application/octet-stream" sparkle:edSignature="p9oDs+o/Ka2sMXhPz4d5YF6d92hZ10ujTXtRW/CFqu3PFQoVruBzC24b3cZu4D5fU4Nz40MqA6aYenjaGhj6Dw=="/>
-        </item>
-        <item>
-            <title>1.2</title>
-            <pubDate>Thu, 31 Oct 2024 11:12:49 +0800</pubDate>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-17/TrialMacAppGUI.tar" length="9243648" type="application/octet-stream" sparkle:edSignature="6XQtChT2vZSk7bxMVHT0JzRh00M1Y5OZtEHemIkaO7zDlSnnT62PCjDJiRWJMdSj5f8cI9xIf2qY7uIOclh6AQ=="/>
         </item>
         <item>
             <title>1.2</title>

@@ -3,6 +3,7 @@
 .venv
 /DerivedData
 app.json
+/build
 
 *.xcuserstate
 *.xcworkspace/xcuserdata/
