@@ -67,8 +67,29 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 
 ## FAQ
 
-Q: After executing the injection, the software cannot install the helper
-A: I haven't processed the helper yet. I first install the helper in the uninjected state and then inject it
+> Q: After executing the injection, the software cannot install the helper
+>
+> A: I haven't processed the helper yet. I first install the helper in the uninjected state and then inject it
+
+> Q: Nothing happens after clicking the injection
+>
+> A: Settings -> Privacy -> APP Management Allow TrialMacAppGUI
+
+> Q: What do the icons on the interface mean?
+>
+> A: Right-click the icon to select the display mode
+> ![](images/1.png)
+
+> Q: The window that supports APPs cannot see all the remarks
+>
+> A: You can drag and widen the width of the remark column. Press and hold the vertical line in the figure below and drag it to the right. The name and remark can be copied by right-clicking
+> ![](images/2.png)
+> ![](images/3.png)
+
+> Q: Quickly filter all APPs on the computer that support injection
+>
+> A: ![](images/4.png)
+
 
 ## Acknowledgements
 

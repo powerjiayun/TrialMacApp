@@ -67,8 +67,29 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 
 ## FAQ
 
-Q: 执行注入后软件无法安装 helper
-A: 我还没有对 helper 做处理，先在未注入状态下安装 helper，然后再注入
+> Q: 执行注入后软件无法安装 helper
+>
+> A: 我还没有对 helper 做处理，先在未注入状态下安装 helper，然后再注入
+
+> Q: 点击执行注入后没有任何反应
+>
+> A: 设置 -> 隐私 -> APP管理  允许TrialMacAppGUI
+
+> Q: 界面上的图标都是什么意思？
+>
+> A: 右键图标可以选择展示模式
+> ![](images/1.png)
+
+> Q: 支持APP的窗口，备注看不全
+>
+> A: 可以自行拖动加宽备注这一列的宽度，下图的竖线按住往右边拖动。姓名和备注支持右键复制
+> ![](images/2.png)
+> ![](images/3.png)
+
+> Q: 快速筛选电脑上所有支持注入的APP
+>
+> A: ![](images/4.png)
+
 
 ## 感谢以下项目
 
