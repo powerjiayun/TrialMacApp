@@ -217,6 +217,13 @@
     </div>
 
     <div class="version-block">
+      <h2>1.2-21</h2>
+      <ul>
+        <li class="content-en">添加筛选按钮，快捷展示支持的APP</li>
+        <li class="content-zh">Add a filter button to quickly display supported apps</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-20</h2>
       <ul>
         <li class="content-en">支持Microsoft Excel</li>
