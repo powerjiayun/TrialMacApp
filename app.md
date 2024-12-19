@@ -69,3 +69,6 @@
 | 59 | Batteries | any |  | ✅ | https://www.fadel.io/batteries |
 | 60 | One Switch | any |  | ✅ | https://fireball.studio/oneswitch |
 | 61 | Moment | any |  | ✅ | https://fireball.studio/moment |
+| 62 | Microsoft Excel | any | ✅ | ✅ | 第一次打开可能会提示购买，只读模式打开一次后退出重开即可 |
+| 63 | Microsoft PowerPoint | any | ✅ | ✅ | 第一次打开可能会提示购买，只读模式打开一次后退出重开即可 |
+| 64 | Microsoft Word | any | ✅ | ✅ | 第一次打开可能会提示购买，只读模式打开一次后退出重开即可 |
