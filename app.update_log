@@ -219,19 +219,19 @@
     <div class="version-block">
       <h2>1.2-21</h2>
       <ul>
-        <li class="content-en">添加筛选按钮，快捷展示支持的APP</li>
-        <li class="content-zh">Add a filter button to quickly display supported apps</li>
+        <li class="content-zh">添加筛选按钮，快捷展示支持的APP</li>
+        <li class="content-en">Add a filter button to quickly display supported apps</li>
       </ul>
     </div>
     <div class="version-block">
       <h2>1.2-20</h2>
       <ul>
-        <li class="content-en">支持Microsoft Excel</li>
-        <li class="content-zh">Support Microsoft Excel</li>
-        <li class="content-en">支持Microsoft PowerPoint</li>
-        <li class="content-zh">Support Microsoft PowerPoint</li>
-        <li class="content-en">支持Microsoft Word</li>
-        <li class="content-zh">Support Microsoft Word</li>
+        <li class="content-zh">支持Microsoft Excel</li>
+        <li class="content-en">Support Microsoft Excel</li>
+        <li class="content-zh">支持Microsoft PowerPoint</li>
+        <li class="content-enzh">Support Microsoft PowerPoint</li>
+        <li class="content-zh">支持Microsoft Word</li>
+        <li class="content-en">Support Microsoft Word</li>
       </ul>
     </div>
     <div class="version-block">
