@@ -958,6 +958,22 @@
 			<key>x86</key>
 			<true/>
 		</dict>
+		<dict>
+			<key>MAS</key>
+			<true/>
+			<key>anyVersion</key>
+			<false/>
+			<key>bundleId</key>
+			<string>com.wiheads.paste</string>
+			<key>name</key>
+			<string>Paste</string>
+			<key>remark</key>
+			<string>https://apps.apple.com/us/app/paste-endless-clipboard/id967805235</string>
+			<key>version</key>
+			<string>4.4.2</string>
+			<key>x86</key>
+			<false/>
+		</dict>
 	</array>
 	<key>UpdateLogs</key>
 	<array>

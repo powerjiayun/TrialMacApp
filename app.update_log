@@ -217,6 +217,13 @@
     </div>
 
     <div class="version-block">
+      <h2>1.2-22</h2>
+      <ul>
+        <li class="content-zh">支持Paste最新版</li>
+        <li class="content-en">Supports the latest Paste version</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-21</h2>
       <ul>
         <li class="content-zh">添加筛选按钮，快捷展示支持的APP</li>
