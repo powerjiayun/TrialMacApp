@@ -39,6 +39,11 @@
 - Native code writing injection plug-ins
 - **The code is open source and free**
 
+### Advantages over other cracking software
+
+- Download the original software from the official website or Mac App Store to ensure the source is safe
+- The supported versions in the support list are any version of this program. When a new version is released, it can be immediately upgraded to use the new version (generally applicable to larger versions, such as 1. xx applicable, 2. xx may not be applicable)
+
 ## Tutorial
 
 1. Download the software from the official website or Mac App Store (Whether it is Mac App Store can be checked from the list of <a href="app.md">all supported apps</a>)
@@ -70,20 +75,6 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 
 - [Sparkle](https://github.com/sparkle-project/Sparkle)
 
-## About the repository itself
-
-> Q: Why did you create this repository?
->
-> A: I started out to learn about macOS security and learned about reverse engineering. In the process of continuous learning, I started to reverse analyze software, some of which were to study its security logic, and some for my own use. When I dealt with more software, I had this repository, which was more used to manage my achievements. Also, learn about swiftUI
-
-> Q: Why is the injection library not open source?
->
-> A: It is common to resell cracked software, and it is also very common to plagiarize others' achievements and re-package them or re-publish them under a different name. The repository was originally for my own use. I will definitely not collect my own money, nor do I want others to re-name it and sell it, so I manage it to ensure safety and free of charge. (If you are skeptical about the word "safety", please provide actual evidence to question it)
-
-> Q: Why is the GUI open source?
->
-> A: The GUI program is a graphical packaging of the execution library. Only a graphical program cannot activate other programs, so the code is only of reference value and cannot be resold by copying a copy. Therefore, the GUI is open source and the injection library is closed source.
-
 ## FAQ
 
 > Q: After executing the injection, the software cannot install the helper
@@ -107,6 +98,20 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 > Q: Quickly filter all APPs on the computer that support injection
 >
 > A: ![](images/4.png)
+
+## About the repository itself
+
+> Q: Why did you create this repository?
+>
+> A: I started out to learn about macOS security and learned about reverse engineering. In the process of continuous learning, I started to reverse analyze software, some of which were to study its security logic, and some for my own use. When I dealt with more software, I had this repository, which was more used to manage my achievements. Also, learn about swiftUI
+
+> Q: Why is the injection library not open source?
+>
+> A: It is common to resell cracked software, and it is also very common to plagiarize others' achievements and re-package them or re-publish them under a different name. The repository was originally for my own use. I will definitely not collect my own money, nor do I want others to re-name it and sell it, so I manage it to ensure safety and free of charge. (If you are skeptical about the word "safety", please provide actual evidence to question it)
+
+> Q: Why is the GUI open source?
+>
+> A: The GUI program is a graphical packaging of the execution library. Only a graphical program cannot activate other programs, so the code is only of reference value and cannot be resold by copying a copy. Therefore, the GUI is open source and the injection library is closed source.
 
 ## Acknowledgements
 
