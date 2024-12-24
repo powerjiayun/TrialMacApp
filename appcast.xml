@@ -5,13 +5,14 @@
         <item>
             <title>1.2</title>
             <pubDate>Thu, 31 Oct 2024 11:12:49 +0800</pubDate>
-            <sparkle:version>22</sparkle:version>
+            <sparkle:version>23</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-22/TrialMacAppGUI.tar" length="9463296" type="application/octet-stream" sparkle:edSignature="cLkBT1HYJkNab1RUQapcIvnkGW1qfYUuXAJqNn5FOyWRUZoX6A5T0IgIgHxZTi6fRIXiSPF2bZY2nZd+oJXODQ=="/>
-        <description><![CDATA[<h2>1.2-22</h2>
+            <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-23/TrialMacAppGUI.tar" length="9558528" type="application/octet-stream" sparkle:edSignature="KQS31PzPfcjw/VOtzyVh+f13hoq2wEzRbDD/UlmX9Ts8lq8wkw8VOe9APmHwxhDdhdhbRDvgRqIStqpvIn0rAA=="/>
+        <description><![CDATA[<h2>1.2-23</h2>
 <ul>
-<li>支持Paste最新版</li>
+<li>支持PDF Expert</li>
+<li>处理Querious错误</li>
 </ul>]]></description></item>
         </channel>
 </rss>

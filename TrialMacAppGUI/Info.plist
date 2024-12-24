@@ -974,6 +974,22 @@
 			<key>x86</key>
 			<false/>
 		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<false/>
+			<key>bundleId</key>
+			<string>com.readdle.PDFExpert-Mac</string>
+			<key>name</key>
+			<string>PDF Expert</string>
+			<key>remark</key>
+			<string>https://pdfexpert.com</string>
+			<key>version</key>
+			<string>3.10.10</string>
+			<key>x86</key>
+			<false/>
+		</dict>
 	</array>
 	<key>UpdateLogs</key>
 	<array>

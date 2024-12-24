@@ -217,6 +217,15 @@
     </div>
 
     <div class="version-block">
+      <h2>1.2-23</h2>
+      <ul>
+        <li class="content-zh">支持PDF Expert</li>
+        <li class="content-en">Support PDF Expert</li>
+        <li class="content-zh">处理Querious错误</li>
+        <li class="content-en">Handling Querious errors</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-22</h2>
       <ul>
         <li class="content-zh">支持Paste最新版</li>
