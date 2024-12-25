@@ -32,10 +32,16 @@ public struct SupportedApp: Codable, Equatable, Identifiable {
     }
 }
 
+public struct SupportedAppErrMsg: Identifiable {
+    public let id = UUID()
+    public let message: String
+}
+
 class SupportedAppManager: ObservableObject {
     static let shared = SupportedAppManager()
     @Published private(set) var supportedApps: [SupportedApp] = []
-    
+    @Published var errorMessage: SupportedAppErrMsg? // 用于存储错误信息
+
     private init() {
         loadSupportedApps()
     }
@@ -47,11 +53,11 @@ class SupportedAppManager: ObservableObject {
     func loadSupportedApps() {
         DispatchQueue.global(qos: .background).async {
             guard let infoDict = Bundle.main.infoDictionary else {
-                print("Error loading Info.plist: Info.plist not found.")
+                self.reportError(SupportedAppErrMsg(message: NSLocalizedString("Error loading Info.plist: Info.plist not found.", comment: "")))
                 return
             }
             guard let supportedAppsArray = infoDict["Supported Apps"] as? [[String: Any]] else {
-                print("Error: 'Supported Apps' key not found in Info.plist.")
+                self.reportError(SupportedAppErrMsg(message: NSLocalizedString("Error: 'Supported Apps' key not found in Info.plist.", comment: "")))
                 return
             }
 
@@ -66,9 +72,14 @@ class SupportedAppManager: ObservableObject {
                     print("更新 SupportedAppManager.supportedApps")
                 }
             } catch {
-                // TODO:
-                print("解析错误: \(error)")
+                self.reportError(SupportedAppErrMsg(message: NSLocalizedString("Error: Parsing data error: \(error)", comment: "")))
             }
+        }
+    }
+
+    private func reportError(_ message: SupportedAppErrMsg) {
+        DispatchQueue.main.async {
+            self.errorMessage = message
         }
     }
 }

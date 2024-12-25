@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct SupportedAppView: View {
+    @Binding var supportedApps: [SupportedApp]
+
     @Environment(\.dismiss) var dismiss
 
-    @EnvironmentObject var supportedAppManager: SupportedAppManager
-    @State private var supportedApps: [SupportedApp] = []
     @State var order: [KeyPathComparator<SupportedApp>] = [.init(\.name, order: .forward)] // 排序条件
 
     var body: some View {
@@ -56,7 +56,6 @@ struct SupportedAppView: View {
                 }
             }
             .task {
-                supportedApps = supportedAppManager.getSupportedApps()
                 supportedApps.sort(using: order)
             }
             .navigationTitle("All Supported Apps") // 主标题

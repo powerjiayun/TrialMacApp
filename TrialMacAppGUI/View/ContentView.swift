@@ -11,6 +11,7 @@ struct ContentView: View {
     @AppStorage("showAdminPrivilegeView") private var showAdminPrivilegeView: Bool = false
     @StateObject var localappManager: LocalAppManager = .shared
     @StateObject var supportedAppManager: SupportedAppManager = .shared
+    @State var supportedApps: [SupportedApp] = []
 
     @State private var isShowAllSupportedApp = false // sheet显示
 
@@ -26,12 +27,12 @@ struct ContentView: View {
                     ToolbarItem(placement: .primaryAction) {
                         Button {
                             isSupported.toggle()
-                            print(isSupported)
+//                            print(isSupported)
                         } label: {
                             Label("filter", systemImage: "line.3.horizontal.decrease.circle")
                         }
                     }
-                    
+
                     ToolbarItem(placement: .secondaryAction) {
                         Spacer()
                     }
@@ -53,14 +54,23 @@ struct ContentView: View {
             toolbarContent
         }
         .sheet(isPresented: $isShowAllSupportedApp) {
-            SupportedAppView()
-                .environmentObject(supportedAppManager)
+            SupportedAppView(supportedApps: $supportedApps)
         }
         .sheet(isPresented: $showAdminPrivilegeView) {
             AdminPrivilegeView()
         }
+        .task {
+            supportedApps = supportedAppManager.getSupportedApps()
+        }
         .searchable(text: $searchText, placement: .sidebar)
         .navigationTitle(selectedApp != nil ? "App Details" : "TrialMacAppGUI")
+        .alert(item: $supportedAppManager.errorMessage) { msg in
+            Alert(
+                title: Text("Fatal errors please report immediately"),
+                message: Text(msg.message),
+                dismissButton: .default(Text("OK"))
+            )
+        }
     }
 
     // 功能合集

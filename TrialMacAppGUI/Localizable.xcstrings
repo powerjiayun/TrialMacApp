@@ -227,6 +227,26 @@
         }
       }
     },
+    "Error loading Info.plist: Info.plist not found." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加载 Info.plist 时出错：未找到 Info.plist。"
+          }
+        }
+      }
+    },
+    "Error: 'Supported Apps' key not found in Info.plist." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "错误：在 Info.plist 中未找到“Supported Apps”键。"
+          }
+        }
+      }
+    },
     "Execution Signature" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -245,6 +265,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "密码保存失败，请重试。"
+          }
+        }
+      }
+    },
+    "Fatal errors please report immediately" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "致命错误请立即报告"
           }
         }
       }
@@ -370,6 +400,9 @@
           }
         }
       }
+    },
+    "OK" : {
+      "shouldTranslate" : false
     },
     "Open in Finder" : {
       "localizations" : {

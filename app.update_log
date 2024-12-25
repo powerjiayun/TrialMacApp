@@ -217,6 +217,15 @@
     </div>
 
     <div class="version-block">
+      <h2>1.2-24</h2>
+      <ul>
+        <li class="content-zh">支持修改保存密码的方式</li>
+        <li class="content-en">The password saving mode can be changed</li>
+        <li class="content-zh">添加初始化错误提醒</li>
+        <li class="content-en">Added initialization error alert</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-23</h2>
       <ul>
         <li class="content-zh">支持PDF Expert</li>
