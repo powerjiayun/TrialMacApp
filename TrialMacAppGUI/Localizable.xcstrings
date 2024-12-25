@@ -305,6 +305,16 @@
         }
       }
     },
+    "Keychain" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "钥匙串"
+          }
+        }
+      }
+    },
     "License code: %@" : {
       "localizations" : {
         "zh-Hans" : {
@@ -391,6 +401,16 @@
         }
       }
     },
+    "Password Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密码设置"
+          }
+        }
+      }
+    },
     "Please enter your password to continue." : {
       "localizations" : {
         "zh-Hans" : {
@@ -469,6 +489,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "运行app"
+          }
+        }
+      }
+    },
+    "Save Password Using" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存密码方式"
           }
         }
       }
@@ -584,6 +614,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更新设置"
+          }
+        }
+      }
+    },
+    "User Defaults" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本地缓存"
           }
         }
       }

@@ -11,6 +11,7 @@ struct AdminPrivilegeView: View {
     @Environment(\.dismiss) var dismiss
     @State private var password: String = ""
     @AppStorage("showAdminPrivilegeView") private var showAdminPrivilegeView: Bool = true
+    @AppStorage("savePasswordMethod") private var savePasswordMethod: SavePasswordMethod = .keychain
 
     @State private var showErrorAlert: Bool = false
     @State private var errorMessage: String?
@@ -42,6 +43,18 @@ struct AdminPrivilegeView: View {
                 .onChange(of: password) { _ in
                     errorMessage = nil
                 }
+            
+//            TextField("Password", text: $password)
+//                .textContentType(.password)
+//                .textFieldStyle(RoundedBorderTextFieldStyle())
+//                .frame(width: 300)
+//                .controlSize(.large)
+//                .disableAutocorrection(true)
+//                .padding()
+//                .onChange(of: password) { _ in
+//                    errorMessage = nil
+//                }
+            
 
             if let errorMessage = errorMessage {
                 Text(errorMessage)
@@ -92,7 +105,13 @@ struct AdminPrivilegeView: View {
     func checkAndSavePassword(password: String) async -> Bool {
         let success = Utils.checkPassword(password: password)
         if success {
-            let saved = KeychainHelper.shared.savePassword(password: password)
+            var saved = false
+            switch savePasswordMethod {
+            case .keychain:
+                saved = KeychainPasswordSaver.shared.savePassword(password)
+            case .userDefaults:
+                saved = UserDefaultsPasswordSaver.shared.savePassword(password)
+            }
             if saved {
                 print("密码保存成功")
                 return true

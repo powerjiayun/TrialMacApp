@@ -18,6 +18,7 @@ struct AppDetailView: View {
     @State var isRunning: Bool = false // 是否在执行注入操作
     
     @State var showLicense: Bool = false
+    @AppStorage("savePasswordMethod") private var savePasswordMethod: SavePasswordMethod = .keychain
     
     var body: some View {
         ScrollView {
@@ -228,7 +229,15 @@ struct AppDetailView: View {
     func startTrial() {
         isRunning = true
         // 获取保存的密码
-        guard let savedPwd = KeychainHelper.shared.getPassword() else {
+        
+        var savedPwd: String?
+        switch savePasswordMethod {
+        case .keychain:
+            savedPwd = KeychainPasswordSaver.shared.getPassword()
+        case .userDefaults:
+            savedPwd = UserDefaultsPasswordSaver.shared.getPassword()
+        }
+        guard let savedPwd else {
             scriptLogs.append("Error: \(NSLocalizedString("Your password has not been obtained. Click the upper right corner to save your password.", comment: ""))")
             isRunning = false
             return

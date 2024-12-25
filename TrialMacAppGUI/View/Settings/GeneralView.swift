@@ -11,6 +11,7 @@ import SwiftUI
 struct GeneralView: View {
     @State private var automaticallyChecksForUpdates: Bool
     @State private var automaticallyDownloadsUpdates: Bool
+    @AppStorage("savePasswordMethod") private var savePasswordMethod: SavePasswordMethod = .keychain
     
     private let updater: SPUUpdater
     
@@ -26,6 +27,8 @@ struct GeneralView: View {
                 header
                 Divider()
                 updateSettings
+                Divider()
+                passwordSettings
             }
             .padding()
         }
@@ -64,6 +67,36 @@ struct GeneralView: View {
                     updater.automaticallyDownloadsUpdates = newValue
                 }
             }
+        }
+    }
+    
+    private var passwordSettings: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Password Settings")
+                .font(.title3)
+                .bold()
+            
+            Picker("Save Password Using", selection: $savePasswordMethod) {
+                Text("Keychain").tag(SavePasswordMethod.keychain)
+                Text("User Defaults").tag(SavePasswordMethod.userDefaults)
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            .labelsHidden()
+            .padding(.top, 8)
+            
+            Text(savePasswordMethodDescription)
+                .font(.footnote)
+                .foregroundColor(.secondary)
+                .padding(.top, 4)
+        }
+    }
+
+    private var savePasswordMethodDescription: String {
+        switch savePasswordMethod {
+        case .keychain:
+            return "Your password will be securely stored in the Keychain."
+        case .userDefaults:
+            return "Your password will be stored in User Defaults (less secure)."
         }
     }
 }
