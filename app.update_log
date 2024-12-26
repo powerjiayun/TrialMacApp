@@ -217,6 +217,13 @@
     </div>
 
     <div class="version-block">
+      <h2>1.2-25</h2>
+      <ul>
+        <li class="content-zh">优化app读取逻辑</li>
+        <li class="content-en">Optimize app read logic</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-24</h2>
       <ul>
         <li class="content-zh">支持修改保存密码的方式</li>

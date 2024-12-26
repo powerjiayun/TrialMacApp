@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @AppStorage("showAdminPrivilegeView") private var showAdminPrivilegeView: Bool = false
-    @StateObject var localappManager: LocalAppManager = .shared
     @StateObject var supportedAppManager: SupportedAppManager = .shared
+    @StateObject var localappManager: LocalAppManager = .shared
     @State var supportedApps: [SupportedApp] = []
 
     @State private var isShowAllSupportedApp = false // sheet显示
@@ -61,6 +61,7 @@ struct ContentView: View {
         }
         .task {
             supportedApps = supportedAppManager.getSupportedApps()
+            localappManager.loadData()
         }
         .searchable(text: $searchText, placement: .sidebar)
         .navigationTitle(selectedApp != nil ? "App Details" : "TrialMacAppGUI")

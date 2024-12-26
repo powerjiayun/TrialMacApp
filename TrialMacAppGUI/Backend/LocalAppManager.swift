@@ -99,6 +99,11 @@ class LocalAppManager: ObservableObject {
                 "/Applications/Setapp",
             ]
             
+//            print("这里调用了Local的initApps")
+//            print(SupportedAppManager.shared.supportedApps.count)
+            if SupportedAppManager.shared.supportedApps.count == 0 {
+                return
+            }
             for directory in applicationDirectories {
                 guard let appPaths = try? fileManager.contentsOfDirectory(atPath: directory) else {
                     continue
