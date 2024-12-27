@@ -990,6 +990,54 @@
 			<key>x86</key>
 			<false/>
 		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>com.houdah.Photos-Workbench</string>
+			<key>name</key>
+			<string>Photos Workbench</string>
+			<key>remark</key>
+			<string>https://www.houdah.com/photosWorkbench/</string>
+			<key>version</key>
+			<string>1.3.3</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>com.houdah.Tembo3</string>
+			<key>name</key>
+			<string>Tembo</string>
+			<key>remark</key>
+			<string>https://www.houdah.com/tembo/</string>
+			<key>version</key>
+			<string>3.2.3</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<false/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>com.houdah.HoudahGeo</string>
+			<key>name</key>
+			<string>HoudahGeo</string>
+			<key>remark</key>
+			<string>https://www.houdah.com/houdahGeo/</string>
+			<key>version</key>
+			<string>6.5.1</string>
+			<key>x86</key>
+			<true/>
+		</dict>
 	</array>
 	<key>UpdateLogs</key>
 	<array>

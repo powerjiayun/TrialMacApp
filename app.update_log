@@ -217,6 +217,19 @@
     </div>
 
     <div class="version-block">
+      <h2>1.2-26</h2>
+      <ul>
+        <li class="content-zh">支持 Photos Workbench</li>
+        <li class="content-en">Support Photos Workbench</li>
+        <li class="content-zh">支持 Tembo</li>
+        <li class="content-en">Support Tembo</li>
+        <li class="content-zh">支持 HoudahGeo</li>
+        <li class="content-en">Support HoudahGeo</li>
+        <li class="content-zh">修正 HoudahSpot 使用天数</li>
+        <li class="content-en">Fixed HoudahSpot usage days</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-25</h2>
       <ul>
         <li class="content-zh">优化app读取逻辑</li>

@@ -5,13 +5,16 @@
         <item>
             <title>1.2</title>
             <pubDate>Thu, 31 Oct 2024 11:12:49 +0800</pubDate>
-            <sparkle:version>25</sparkle:version>
+            <sparkle:version>26</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-25/TrialMacAppGUI.tar" length="9589760" type="application/octet-stream" sparkle:edSignature="Cur9WXaoax7+mXDXXhh+Zr8oDJVt7Poj1Ma66zP9vnGJfsL7Q7iEiCxOcZ6w/h8bUnqRCvammbnPe46xK7oiAw=="/>
-        <description><![CDATA[<h2>1.2-25</h2>
+            <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-26/TrialMacAppGUI.tar" length="9600512" type="application/octet-stream" sparkle:edSignature="5aHBFhAwQ3PjSzPYI8ANQR62aRa/bKtTUGkqo4FNcia49Xjy9p3TX6TD/WwKSZPmiFq34bLLDzdpNyA93ZGtBw=="/>
+        <description><![CDATA[<h2>1.2-26</h2>
 <ul>
-<li>优化app读取逻辑</li>
+<li>支持 Photos Workbench</li>
+<li>支持 Tembo</li>
+<li>支持 HoudahGeo</li>
+<li>修正 HoudahSpot 使用天数</li>
 </ul>]]></description></item>
         </channel>
 </rss>
