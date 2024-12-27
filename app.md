@@ -72,3 +72,8 @@
 | 62 | Microsoft Excel | any | ✅ | ✅ | 第一次打开可能会提示购买，只读模式打开一次后退出重开即可 |
 | 63 | Microsoft PowerPoint | any | ✅ | ✅ | 第一次打开可能会提示购买，只读模式打开一次后退出重开即可 |
 | 64 | Microsoft Word | any | ✅ | ✅ | 第一次打开可能会提示购买，只读模式打开一次后退出重开即可 |
+| 65 | Paste | 4.4.2 | ✅ |  | https://apps.apple.com/us/app/paste-endless-clipboard/id967805235 |
+| 66 | PDF Expert | 3.10.10 |  |  | https://pdfexpert.com |
+| 67 | Photos Workbench | any |  | ✅ | https://www.houdah.com/photosWorkbench/ |
+| 68 | Tembo | any |  | ✅ | https://www.houdah.com/tembo/ |
+| 69 | HoudahGeo | any |  | ✅ | https://www.houdah.com/houdahGeo/ |
