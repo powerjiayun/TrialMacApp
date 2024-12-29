@@ -1,8 +1,10 @@
 
 # Supported Apps
 
+> [!IMPORTANT]
+>
 > All apps support arm architecture
-
+> 
 > MAS = Mac App Store
 
 
