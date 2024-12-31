@@ -23,10 +23,10 @@
 | 11 | Sketch | any | ✅ | ✅ |  |
 | 12 | Screen Recorder by Omi | any | ✅ | ✅ |  |
 | 13 | CleanShot X | 4.7 |  |  |  |
-| 14 | Aldente Pro | any |  | ✅ | 先执行注入，再去使用激活码激活 |
-| 15 | Table Plus | 6.0.4 |  |  | 暂停支持 |
+| 14 | Aldente Pro | any |  | ✅ | Perform the injection first, then use the activation code to activate |
+| 15 | Table Plus | 6.0.4 |  |  | Suspend support |
 | 16 | Doppler | any |  | ✅ |  |
-| 17 | Text Scanner | 1.7.5 | ✅ |  | 暂停支持 |
+| 17 | Text Scanner | 1.7.5 | ✅ |  | Suspend support |
 | 18 | 欧陆词典 | any |  | ✅ |  |
 | 19 | Blocs | any |  | ✅ |  |
 | 20 | PlistEdit Pro | any |  | ✅ |  |
@@ -41,28 +41,28 @@
 | 29 | Proxyman | 5.2.0 |  |  |  |
 | 30 | ServerCat | 1.12 | ✅ |  |  |
 | 31 | Core Tunnel | any | ✅ | ✅ |  |
-| 32 | Navicat Premium | any | ✅ | ✅ | 借鉴 Qiuchenly |
+| 32 | Navicat Premium | any | ✅ | ✅ | |
 | 33 | Permute 3 | any |  | ✅ |  |
 | 34 | Eon | any |  | ✅ |  |
 | 35 | UctoX 2 | any |  | ✅ |  |
 | 36 | Rottenwood | any |  | ✅ |  |
-| 37 | Judo | any | ✅ | ✅ | 免登录 有几个功能不能用 |
+| 37 | Judo | any | ✅ | ✅ | No login required. Some functions are not available. |
 | 38 | Querious | any |  | ✅ |  |
-| 39 | ForkLift | any |  | ✅ | 暂停支持 |
-| 40 | CleanMyMac-MAS | 4.* | ✅ | ✅ | 不包括状态栏按钮 |
+| 39 | ForkLift | any |  | ✅ | Suspend support |
+| 40 | CleanMyMac-MAS | 4.* | ✅ | ✅ | Does not include status bar buttons |
 | 41 | Reveal | 49 (20463) |  |  |  |
 | 42 | HoudahSpot | any |  | ✅ |  |
 | 43 | Focus | any |  | ✅ | https://heyfocus.com |
-| 44 | SimpleMind | any | ✅ | ✅ | 思维导图软件 |
-| 45 | Flacbox | any | ✅ | ✅ | 音乐软件 |
+| 44 | SimpleMind | any | ✅ | ✅ | https://apps.apple.com/us/app/simplemind-mind-mapping/id439654198?mt=12 |
+| 45 | Flacbox | any | ✅ | ✅ | https://apps.apple.com/us/app/flacbox/id1594027432?mt=12 |
 | 46 | PDF Editor | any | ✅ | ✅ | https://apps.apple.com/gb/app/pdf-editor-for-adobe-pdf-file/id6469578160 |
 | 47 | Notebooks | any |  | ✅ | https://www.notebooksapp.com/mac/ |
-| 48 | Final Cut Pro Trial | any |  | ✅ | 每次打开都会提示购买，忽略就行 |
-| 49 | Mp3tag | 1.8.25 |  |  | 输入任意激活信息点激活 |
+| 48 | Final Cut Pro Trial | any |  | ✅ | Every time you open it, you will be prompted to buy it, just ignore it |
+| 49 | Mp3tag | 1.8.25 |  |  | Enter any activation information point to activate |
 | 50 | Ulysses | any | ✅ | ✅ |  |
 | 51 | Logic Pro | any |  | ✅ |  |
 | 52 | 即刻转换 | any | ✅ | ✅ |  |
-| 53 | MarginNote 4 | any | ✅ | ✅ | GUI打开会有问题，自己程序坞内打开 |
+| 53 | MarginNote 4 | any | ✅ | ✅ | Don't open it with TrialMacAppGUI |
 | 54 | MarginNote 3 | any | ✅ | ✅ |  |
 | 55 | iStatistica Pro | any |  | ✅ | https://www.imagetasks.com/istatistica/pro |
 | 56 | iReal Pro | any |  | ✅ | https://www.irealpro.com |
@@ -71,9 +71,9 @@
 | 59 | Batteries | any |  | ✅ | https://www.fadel.io/batteries |
 | 60 | One Switch | any |  | ✅ | https://fireball.studio/oneswitch |
 | 61 | Moment | any |  | ✅ | https://fireball.studio/moment |
-| 62 | Microsoft Excel | any | ✅ | ✅ | 第一次打开可能会提示购买，只读模式打开一次后退出重开即可 |
-| 63 | Microsoft PowerPoint | any | ✅ | ✅ | 第一次打开可能会提示购买，只读模式打开一次后退出重开即可 |
-| 64 | Microsoft Word | any | ✅ | ✅ | 第一次打开可能会提示购买，只读模式打开一次后退出重开即可 |
+| 62 | Microsoft Excel | any | ✅ | ✅ | When you open it for the first time, you may be prompted to purchase. Open it in read-only mode once, then exit and reopen it. |
+| 63 | Microsoft PowerPoint | any | ✅ | ✅ | When you open it for the first time, you may be prompted to purchase. Open it in read-only mode once, then exit and reopen it. |
+| 64 | Microsoft Word | any | ✅ | ✅ | When you open it for the first time, you may be prompted to purchase. Open it in read-only mode once, then exit and reopen it. |
 | 65 | Paste | 4.4.2 | ✅ |  | https://apps.apple.com/us/app/paste-endless-clipboard/id967805235 |
 | 66 | PDF Expert | 3.10.10 |  |  | https://pdfexpert.com |
 | 67 | Photos Workbench | any |  | ✅ | https://www.houdah.com/photosWorkbench/ |
