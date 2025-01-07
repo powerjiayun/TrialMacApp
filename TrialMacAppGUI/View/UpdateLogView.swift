@@ -97,7 +97,7 @@ class UpdateLogWindowController: NSWindowController {
             contentViewController: NSViewController()
         )
         window.contentView = contentView
-        window.title = "更新日志"
+        window.title = "Update Logs"
         window.setContentSize(NSSize(width: 800, height: 600))
         super.init(window: window)
     }

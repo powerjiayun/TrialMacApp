@@ -204,7 +204,7 @@
 			<key>name</key>
 			<string>Aldente Pro</string>
 			<key>remark</key>
-			<string>先执行注入，再去使用激活码激活</string>
+			<string>Perform the injection first, then use the activation code to activate</string>
 			<key>version</key>
 			<string>1.28.4</string>
 			<key>x86</key>
@@ -220,7 +220,7 @@
 			<key>name</key>
 			<string>Table Plus</string>
 			<key>remark</key>
-			<string>暂停支持</string>
+			<string>Suspend support</string>
 			<key>version</key>
 			<string>6.0.4</string>
 			<key>x86</key>
@@ -250,7 +250,7 @@
 			<key>name</key>
 			<string>Text Scanner</string>
 			<key>remark</key>
-			<string>暂停支持</string>
+			<string>Suspend support</string>
 			<key>version</key>
 			<string>1.7.5</string>
 			<key>x86</key>
@@ -461,8 +461,6 @@
 			<string>com.navicat.NavicatPremium</string>
 			<key>name</key>
 			<string>Navicat Premium</string>
-			<key>remark</key>
-			<string>借鉴 Qiuchenly</string>
 			<key>version</key>
 			<string>17.0.6</string>
 			<key>x86</key>
@@ -534,7 +532,7 @@
 			<key>name</key>
 			<string>Judo</string>
 			<key>remark</key>
-			<string>免登录 有几个功能不能用</string>
+			<string>No login required. Some functions are not available.</string>
 			<key>version</key>
 			<string>7.0.4</string>
 			<key>x86</key>
@@ -564,7 +562,7 @@
 			<key>name</key>
 			<string>ForkLift</string>
 			<key>remark</key>
-			<string>暂停支持</string>
+			<string>Suspend support</string>
 			<key>version</key>
 			<string>4.1.5</string>
 			<key>x86</key>
@@ -580,7 +578,7 @@
 			<key>name</key>
 			<string>CleanMyMac-MAS</string>
 			<key>remark</key>
-			<string>不包括状态栏按钮</string>
+			<string>Does not include status bar buttons</string>
 			<key>version</key>
 			<string>4.*</string>
 			<key>x86</key>
@@ -640,7 +638,7 @@
 			<key>name</key>
 			<string>SimpleMind</string>
 			<key>remark</key>
-			<string>思维导图软件</string>
+			<string>https://apps.apple.com/us/app/simplemind-mind-mapping/id439654198?mt=12</string>
 			<key>version</key>
 			<string>2.4.1</string>
 			<key>x86</key>
@@ -656,7 +654,7 @@
 			<key>name</key>
 			<string>Flacbox</string>
 			<key>remark</key>
-			<string>音乐软件</string>
+			<string>https://apps.apple.com/us/app/flacbox/id1594027432?mt=12</string>
 			<key>version</key>
 			<string>5.8</string>
 			<key>x86</key>
@@ -704,7 +702,7 @@
 			<key>name</key>
 			<string>Final Cut Pro Trial</string>
 			<key>remark</key>
-			<string>每次打开都会提示购买，忽略就行</string>
+			<string>Every time you open it, you will be prompted to buy it, just ignore it</string>
 			<key>version</key>
 			<string>10.8.1</string>
 			<key>x86</key>
@@ -720,7 +718,7 @@
 			<key>name</key>
 			<string>Mp3tag</string>
 			<key>remark</key>
-			<string>输入任意激活信息点激活</string>
+			<string>Enter any activation information point to activate</string>
 			<key>version</key>
 			<string>1.8.25</string>
 			<key>x86</key>
@@ -778,7 +776,7 @@
 			<key>name</key>
 			<string>MarginNote 4</string>
 			<key>remark</key>
-			<string>GUI打开会有问题，自己程序坞内打开</string>
+			<string>Don't open it with TrialMacAppGUI</string>
 			<key>version</key>
 			<string>4.1.8</string>
 			<key>x86</key>
@@ -920,7 +918,7 @@
 			<key>name</key>
 			<string>Microsoft Excel</string>
 			<key>remark</key>
-			<string>第一次打开可能会提示购买，只读模式打开一次后退出重开即可</string>
+			<string>When you open it for the first time, you may be prompted to purchase. Open it in read-only mode once, then exit and reopen it.</string>
 			<key>version</key>
 			<string>16.92</string>
 			<key>x86</key>
@@ -936,7 +934,7 @@
 			<key>name</key>
 			<string>Microsoft PowerPoint</string>
 			<key>remark</key>
-			<string>第一次打开可能会提示购买，只读模式打开一次后退出重开即可</string>
+			<string>When you open it for the first time, you may be prompted to purchase. Open it in read-only mode once, then exit and reopen it.</string>
 			<key>version</key>
 			<string>16.92</string>
 			<key>x86</key>
@@ -952,7 +950,7 @@
 			<key>name</key>
 			<string>Microsoft Word</string>
 			<key>remark</key>
-			<string>第一次打开可能会提示购买，只读模式打开一次后退出重开即可</string>
+			<string>When you open it for the first time, you may be prompted to purchase. Open it in read-only mode once, then exit and reopen it.</string>
 			<key>version</key>
 			<string>16.92</string>
 			<key>x86</key>
@@ -1035,6 +1033,38 @@
 			<string>https://www.houdah.com/houdahGeo/</string>
 			<key>version</key>
 			<string>6.5.1</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<true/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>it.bloop.airmail2</string>
+			<key>name</key>
+			<string>Airmail</string>
+			<key>remark</key>
+			<string>https://apps.apple.com/us/app/airmail-lightning-fast-email/id918858936</string>
+			<key>version</key>
+			<string>5.8.14</string>
+			<key>x86</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>MAS</key>
+			<true/>
+			<key>anyVersion</key>
+			<true/>
+			<key>bundleId</key>
+			<string>io.canarymail.mac</string>
+			<key>name</key>
+			<string>Canary Mail</string>
+			<key>remark</key>
+			<string>https://apps.apple.com/us/app/canary-mail-app/id1236045954</string>
+			<key>version</key>
+			<string>4.74.0</string>
 			<key>x86</key>
 			<true/>
 		</dict>

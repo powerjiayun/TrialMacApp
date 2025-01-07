@@ -198,13 +198,26 @@ class LocalAppManager: ObservableObject {
     }
     
     private func isAppActivated(_ executablePath: String) -> Bool {
-        let appPath = executablePath.replacingOccurrences(of: " ", with: "\\\\ ")
-        let otoolOutput = Utils.runSudoShellCommandByScript("/usr/bin/otool -L \(appPath)", sudo: false)
+//        let appPath = executablePath.replacingOccurrences(of: " ", with: "\\\\ ")
+//        let otoolOutput = Utils.runSudoShellCommandByScript("/usr/bin/otool -L \(appPath)", sudo: false)
+//        
+//        guard let output = otoolOutput else {
+//            return false
+//        }
+//        if output.contains(Constants.dylibName) {
+//            return true
+//        } else {
+//            return false
+//        }
         
-        guard let output = otoolOutput else {
-            return false
-        }
-        if output.contains(Constants.dylibName) {
+        var url = URL(fileURLWithPath: executablePath)
+        url.deleteLastPathComponent() // 删除最后的文件名
+        url.appendPathComponent(Constants.dylibName) // 添加新的文件名
+        let newPath = url.path
+        
+        let fileManager = FileManager.default
+
+        if fileManager.fileExists(atPath: newPath) { // 遍历文件可以比执行命令更快完成，因为不用等待交互。
             return true
         } else {
             return false

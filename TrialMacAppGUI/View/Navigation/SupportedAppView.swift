@@ -20,39 +20,7 @@ struct SupportedAppView: View {
                 if supportedApps.isEmpty {
                     ProgressView("Loading...")
                 } else {
-                    Table(supportedApps, sortOrder: $order) {
-                        TableColumn("Name") { app in
-                            CopyableText(value: app.name)
-                        }
-
-                        TableColumn("MAS") {
-                            Text($0.MAS ? "✅" : "")
-                        }
-                        .width(32)
-
-                        TableColumn("X86") {
-                            Text($0.x86 ? "✅" : "❌")
-                        }
-                        .width(32)
-
-                        TableColumn("Version") {
-                            Text($0.anyVersion ? "✅" : $0.version)
-                        }
-                        .width(72)
-
-                        TableColumn("Remark") { app in
-                            CopyableText(value: app.remark ?? "")
-                        }
-                    }
-                    .padding(.top, 6)
-                    .frame(width: 660, height: 300) // ？？？？
-                    .onChange(of: order) { newOrder in
-                        print(newOrder)
-                        withAnimation {
-                            supportedApps.sort(using: newOrder) // 排序条件改变时对数据重排序
-                        }
-                    }
-                    .tableStyle(.inset)
+                    tableView
                 }
             }
             .task {
@@ -68,6 +36,42 @@ struct SupportedAppView: View {
                 }
             }
         }
+    }
+
+    private var tableView: some View {
+        Table(supportedApps, sortOrder: $order) {
+            TableColumn("Name") { app in
+                CopyableText(value: app.name)
+            }
+
+            TableColumn("MAS") {
+                Text($0.MAS ? "✅" : "")
+            }
+            .width(32)
+
+            TableColumn("X86") {
+                Text($0.x86 ? "✅" : "❌")
+            }
+            .width(32)
+
+            TableColumn("Version") {
+                Text($0.anyVersion ? "✅" : $0.version)
+            }
+            .width(72)
+
+            TableColumn("Remark") { app in
+                CopyableText(value: app.remark ?? "")
+            }
+        }
+        .padding(.top, 6)
+        .frame(width: 660, height: 300) // ？？？？
+        .onChange(of: order) { newOrder in
+            print(newOrder)
+            withAnimation {
+                supportedApps.sort(using: newOrder) // 排序条件改变时对数据重排序
+            }
+        }
+        .tableStyle(.inset)
     }
 
     struct CopyableText<T>: View where T: CustomStringConvertible {

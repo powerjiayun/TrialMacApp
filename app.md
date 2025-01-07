@@ -41,7 +41,7 @@
 | 29 | Proxyman | 5.2.0 |  |  |  |
 | 30 | ServerCat | 1.12 | ✅ |  |  |
 | 31 | Core Tunnel | any | ✅ | ✅ |  |
-| 32 | Navicat Premium | any | ✅ | ✅ | |
+| 32 | Navicat Premium | any | ✅ | ✅ |  |
 | 33 | Permute 3 | any |  | ✅ |  |
 | 34 | Eon | any |  | ✅ |  |
 | 35 | UctoX 2 | any |  | ✅ |  |
@@ -79,3 +79,5 @@
 | 67 | Photos Workbench | any |  | ✅ | https://www.houdah.com/photosWorkbench/ |
 | 68 | Tembo | any |  | ✅ | https://www.houdah.com/tembo/ |
 | 69 | HoudahGeo | any |  | ✅ | https://www.houdah.com/houdahGeo/ |
+| 70 | Airmail | any | ✅ | ✅ | https://apps.apple.com/us/app/airmail-lightning-fast-email/id918858936 |
+| 71 | Canary Mail | any | ✅ | ✅ | https://apps.apple.com/us/app/canary-mail-app/id1236045954 |

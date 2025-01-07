@@ -217,6 +217,17 @@
     </div>
 
     <div class="version-block">
+      <h2>1.2-27</h2>
+      <ul>
+        <li class="content-zh">支持 Canary Mail</li>
+        <li class="content-en">Support Canary Mail</li>
+        <li class="content-zh">支持 Airmail</li>
+        <li class="content-en">Support Airmail</li>
+        <li class="content-zh">加快软件启动速度</li>
+        <li class="content-en">Speed ​​up software startup</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-26</h2>
       <ul>
         <li class="content-zh">支持 Photos Workbench</li>
