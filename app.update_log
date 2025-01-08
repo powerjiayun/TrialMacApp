@@ -217,6 +217,13 @@
     </div>
 
     <div class="version-block">
+      <h2>1.2-28</h2>
+      <ul>
+        <li class="content-zh">修正密码输入框</li>
+        <li class="content-en">Fixed the password input field</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-27</h2>
       <ul>
         <li class="content-zh">支持 Canary Mail</li>

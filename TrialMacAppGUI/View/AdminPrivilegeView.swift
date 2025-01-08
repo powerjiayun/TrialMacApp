@@ -34,13 +34,13 @@ struct AdminPrivilegeView: View {
                     .foregroundColor(.secondary)
             }
 
-//            SecureField("Password", text: $password)
-            TextField("Password", text: $password)
+            SecureField("Password", text: $password)
+//            TextField("Password", text: $password)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .frame(width: 300)
                 .controlSize(.large)
-                .disableAutocorrection(true)
                 .padding()
+                .autocorrectionDisabled()
                 .onChange(of: password) { _ in
                     errorMessage = nil
                 }
