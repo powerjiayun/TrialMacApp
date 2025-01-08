@@ -81,7 +81,7 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 >
 > Q: Why do I need to enter the administrator password?
 >
-> A: You can view the code of Utils.swift and AppDetailView.swift. The administrator password is required mainly to execute xattr and codesign commands. MAS applications must add sudo, and non-MAS applications do not need to add sudo. I added sudo for convenience. You can change the code and compile it yourself.
+> A: You can view the code of `Utils.swift` and `AppDetailView.swift`. The administrator password is required mainly to execute `xattr` and `codesign` commands. MAS applications must add sudo, and non-MAS applications do not need to add sudo. I added sudo for convenience. You can change the code and compile it yourself.
 
 > Q: After executing the injection, the software cannot install the helper
 >
