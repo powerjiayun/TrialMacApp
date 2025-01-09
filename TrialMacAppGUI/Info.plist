@@ -274,13 +274,13 @@
 			<key>MAS</key>
 			<false/>
 			<key>anyVersion</key>
-			<true/>
+			<false/>
 			<key>bundleId</key>
 			<string>com.cazoobi.Blocs-5</string>
 			<key>name</key>
 			<string>Blocs</string>
 			<key>version</key>
-			<string></string>
+			<string>5.*</string>
 			<key>x86</key>
 			<true/>
 		</dict>
@@ -462,7 +462,7 @@
 			<key>name</key>
 			<string>Navicat Premium</string>
 			<key>version</key>
-			<string>17.0.6</string>
+			<string>17.1.8</string>
 			<key>x86</key>
 			<true/>
 		</dict>

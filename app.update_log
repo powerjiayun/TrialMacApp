@@ -217,6 +217,13 @@
     </div>
 
     <div class="version-block">
+      <h2>1.2-29</h2>
+      <ul>
+        <li class="content-zh">修正Navicat钥匙串 重要修复请更新</li>
+        <li class="content-en">Fixed Navicat keychain Important fixes please update</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-28</h2>
       <ul>
         <li class="content-zh">修正密码输入框</li>

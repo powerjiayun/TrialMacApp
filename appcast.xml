@@ -5,13 +5,13 @@
         <item>
             <title>1.2</title>
             <pubDate>Thu, 31 Oct 2024 11:12:49 +0800</pubDate>
-            <sparkle:version>28</sparkle:version>
+            <sparkle:version>29</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-28/TrialMacAppGUI.tar" length="9688064" type="application/octet-stream" sparkle:edSignature="dNvqsYbW6FwRfMzM04kz7hJpc4GI5rtH0xqv6OB0L1CuXKkyTE2cdal2FFnmr3DSgXWPzmOalCD69jgbIukXDg=="/>
-        <description><![CDATA[<h2>1.2-28</h2>
+            <enclosure url="https://github.com/TrialMacApp/TrialMacApp/releases/download/1.2-29/TrialMacAppGUI.tar" length="9689600" type="application/octet-stream" sparkle:edSignature="DcYnTZoFptT0hROFF64yrxQ1pqkc9FO2aZ1oZ5EZYK+WcbMNNMjUwwBL/74JfvHBbITZ4cx5Z/ZW5Aj7awutAw=="/>
+        <description><![CDATA[<h2>1.2-29</h2>
 <ul>
-<li>修正密码输入框</li>
+<li>Fixed Navicat keychain Important fixes please update</li>
 </ul>]]></description></item>
         </channel>
 </rss>

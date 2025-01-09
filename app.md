@@ -28,7 +28,7 @@
 | 16 | Doppler | any |  | ✅ |  |
 | 17 | Text Scanner | 1.7.5 | ✅ |  | Suspend support |
 | 18 | 欧陆词典 | any |  | ✅ |  |
-| 19 | Blocs | any |  | ✅ |  |
+| 19 | Blocs | 5.* |  | ✅ |  |
 | 20 | PlistEdit Pro | any |  | ✅ |  |
 | 21 | Downie 4 | any |  | ✅ |  |
 | 22 | Typora | any |  | ✅ |  |
