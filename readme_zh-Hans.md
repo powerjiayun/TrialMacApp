@@ -82,6 +82,10 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 > Q: 为什么需要输入管理员密码？
 >
 > A: 可以查看 `Utils.swift` 和 `AppDetailView.swift` 的代码，需要管理员密码主要是为了执行 `xattr` 和 `codesign` 命令，MAS 应用必须加 sudo，非 MAS 不需要加 sudo，我为了方便都加了 sudo，你可以自行更改代码编译
+>
+> Q: 为什么提示访问钥匙串？
+>
+> A: 你可以查看 `PasswordManager.swift` 这个文件的代码，并且你可以在 GUI 的设置中切换密码保存方式
 
 > Q: 执行注入后软件无法安装 helper
 >
