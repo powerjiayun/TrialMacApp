@@ -2,7 +2,7 @@
 name: Bug
 about: Create a report to help us improve
 title: An app found a bug
-labels: bug, good first issue, help wanted, question
+labels: bug
 assignees: ''
 
 ---

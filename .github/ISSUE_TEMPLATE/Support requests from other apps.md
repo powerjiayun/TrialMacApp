@@ -2,7 +2,7 @@
 name: Support requests from other apps
 about: Create a report to help us improve
 title: Support requests from other apps
-labels: future, help wanted
+labels: app request
 assignees: ''
 
 ---

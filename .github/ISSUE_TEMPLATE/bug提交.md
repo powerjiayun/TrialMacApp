@@ -2,7 +2,7 @@
 name: Bug提交
 about: Create a report to help us improve
 title: xxx app 的bug
-labels: bug, good first issue, help wanted, question
+labels: bug
 assignees: ''
 
 ---
