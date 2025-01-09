@@ -38,6 +38,7 @@
 - Passwords are encrypted using keychains
 - Native code writing injection plug-ins
 - **The code is open source and free**
+- **No need to turn off SIP to crack all apps**
 
 ### Advantages over other cracking software
 
