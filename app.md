@@ -62,7 +62,7 @@
 | 50 | Ulysses | any | ✅ | ✅ |  |
 | 51 | Logic Pro | any |  | ✅ |  |
 | 52 | 即刻转换 | any | ✅ | ✅ |  |
-| 53 | MarginNote 4 | any | ✅ | ✅ | Don't open it with TrialMacAppGUI |
+| 53 | MarginNote 4 | any | ✅ | ✅ |  |
 | 54 | MarginNote 3 | any | ✅ | ✅ |  |
 | 55 | iStatistica Pro | any |  | ✅ | https://www.imagetasks.com/istatistica/pro |
 | 56 | iReal Pro | any |  | ✅ | https://www.irealpro.com |

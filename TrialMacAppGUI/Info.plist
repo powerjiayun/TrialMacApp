@@ -777,8 +777,6 @@
 			<string>QReader.MarginStudy.easy</string>
 			<key>name</key>
 			<string>MarginNote 4</string>
-			<key>remark</key>
-			<string>Don't open it with TrialMacAppGUI</string>
 			<key>version</key>
 			<string>4.1.8</string>
 			<key>x86</key>
