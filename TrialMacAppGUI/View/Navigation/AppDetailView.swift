@@ -17,6 +17,8 @@ struct AppDetailView: View {
     @State var password: String = ""
     @State var isRunning: Bool = false // 是否在执行注入操作
     
+    @State var dylib: Constants.injectDylib = .general
+    
     @State var showLicense: Bool = false
     @AppStorage("savePasswordMethod") private var savePasswordMethod: SavePasswordMethod = .keychain
     
@@ -257,6 +259,12 @@ struct AppDetailView: View {
             return
         }
         
+        if localAppInfo.hookUrl {
+            dylib = .url
+        } else if !localAppInfo.anyVersion {
+            dylib = .code
+        }
+        
         if localAppInfo.executePath == "" {
             scriptLogs.append("Error: \(NSLocalizedString("This is an anomaly, it is missing important information, you can report it to GitHub", comment: ""))")
             isRunning = false
@@ -281,7 +289,7 @@ struct AppDetailView: View {
     
     private func copyDylib() -> (String, Bool) {
         let appFolder = fixPath(path: localAppInfo.appFolder)
-        let command = "cp \(Constants.cmdDylibPath) \(appFolder)/Contents/MacOS"
+        let command = "cp \(dylib.pathString) \(appFolder)/Contents/MacOS"
         var success = false
         
         if let output = Utils.runSudoShellCommandByScriptWithPwd(command, password: password) {
@@ -297,7 +305,7 @@ struct AppDetailView: View {
     
     private func optool() -> (String, Bool) {
         let appName = fixPath(path: localAppInfo.executePath)
-        let command = "\(Constants.cmdOptoolPath) install -p @executable_path/\(Constants.dylibName) -t \(appName)"
+        let command = "\(Constants.cmdOptoolPath) install -p @executable_path/\(dylib.name).dylib -t \(appName)"
         var success = false
         
         if let output = Utils.runSudoShellCommandByScriptWithPwd(command, password: password) {

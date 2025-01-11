@@ -217,6 +217,15 @@
     </div>
 
     <div class="version-block">
+      <h2>2.0-30</h2>
+      <ul>
+        <li class="content-zh">优化结构</li>
+        <li class="content-en">Optimize structure</li>
+        <li class="content-zh">拆分注入库</li>
+        <li class="content-en">Split injection library</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>1.2-29</h2>
       <ul>
         <li class="content-zh">修正Navicat钥匙串 重要修复请更新</li>

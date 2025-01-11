@@ -19,6 +19,7 @@ class LocalAppInfo: ObservableObject, Hashable {
     var appFolder: String // 这个是  "/Applications/Permute 3.app"
     let x64: Bool
     let anyVersion: Bool
+    let hookUrl: Bool
     let supportVersion: String
     let remark: String
     let canActivate: Bool
@@ -26,7 +27,7 @@ class LocalAppInfo: ObservableObject, Hashable {
     let licenseCode: String
     let mas: Bool
     
-    init(name: String, bundleId: String, version: String, icon: Image, isAppActivated: Bool, executePath: String, appName: String, appFolder: String, x64: Bool, anyVersion: Bool, supportVersion: String, remark: String, canActivate: Bool, licenseUser: String, licenseCode: String, mas: Bool) {
+    init(name: String, bundleId: String, version: String, icon: Image, isAppActivated: Bool, executePath: String, appName: String, appFolder: String, x64: Bool, anyVersion: Bool, hookUrl: Bool, supportVersion: String, remark: String, canActivate: Bool, licenseUser: String, licenseCode: String, mas: Bool) {
         self.name = name
         self.bundleId = bundleId
         self.version = version
@@ -37,6 +38,7 @@ class LocalAppInfo: ObservableObject, Hashable {
         self.appFolder = appFolder
         self.x64 = x64
         self.anyVersion = anyVersion
+        self.hookUrl = hookUrl
         self.supportVersion = supportVersion
         self.remark = remark
         self.canActivate = canActivate
@@ -157,6 +159,7 @@ class LocalAppManager: ObservableObject {
             appFolder: "\(directory)/\(appPath)",
             x64: supportedInfo.supportedX86,
             anyVersion: supportedInfo.supportAllVersion,
+            hookUrl: supportedInfo.hookUrl,
             supportVersion: supportedInfo.supportVersion,
             remark: supportedInfo.remark,
             canActivate: supportedInfo.canActivate,
@@ -178,12 +181,13 @@ class LocalAppManager: ObservableObject {
         return Image(systemName: "questionmark.square")
     }
 
-    private func getSupportedAppInfo(bundleID: String, executablePath: String) -> (supportedX86: Bool, supportAllVersion: Bool, supportVersion: String, remark: String, canActivate: Bool, isAppActivated: Bool, licenseUser: String, licenseCode: String, mas: Bool) {
+    private func getSupportedAppInfo(bundleID: String, executablePath: String) -> (supportedX86: Bool, supportAllVersion: Bool, hookUrl: Bool, supportVersion: String, remark: String, canActivate: Bool, isAppActivated: Bool, licenseUser: String, licenseCode: String, mas: Bool) {
         for supportedApp in SupportedAppManager.shared.supportedApps {
             if supportedApp.bundleId == bundleID {
                 return (
                     supportedX86: supportedApp.x86,
                     supportAllVersion: supportedApp.anyVersion,
+                    hookUrl: supportedApp.hookUrl ?? false,
                     supportVersion: supportedApp.anyVersion ? "All Version" : supportedApp.version,
                     remark: supportedApp.remark ?? "",
                     canActivate: true,
@@ -194,13 +198,13 @@ class LocalAppManager: ObservableObject {
                 )
             }
         }
-        return (false, false, "", "", false, false, "", "", false)
+        return (false, false, false, "", "", false, false, "", "", false)
     }
     
     private func isAppActivated(_ executablePath: String) -> Bool {
 //        let appPath = executablePath.replacingOccurrences(of: " ", with: "\\\\ ")
 //        let otoolOutput = Utils.runSudoShellCommandByScript("/usr/bin/otool -L \(appPath)", sudo: false)
-//        
+//
 //        guard let output = otoolOutput else {
 //            return false
 //        }
@@ -212,15 +216,21 @@ class LocalAppManager: ObservableObject {
         
         var url = URL(fileURLWithPath: executablePath)
         url.deleteLastPathComponent() // 删除最后的文件名
-        url.appendPathComponent(Constants.dylibName) // 添加新的文件名
-        let newPath = url.path
+        print(url)
         
         let fileManager = FileManager.default
-
-        if fileManager.fileExists(atPath: newPath) { // 遍历文件可以比执行命令更快完成，因为不用等待交互。
-            return true
-        } else {
+        
+        do {
+            let fileNames = try fileManager.contentsOfDirectory(atPath: url.path)
+            for fileName in fileNames {
+                if fileName.contains("libTrialMacApp") {
+                    return true
+                }
+            }
+        } catch {
+            print("Error while enumerating files at path \(executablePath): \(error.localizedDescription)")
             return false
         }
+        return false
     }
 }

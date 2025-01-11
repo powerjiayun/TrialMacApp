@@ -33,7 +33,7 @@
 | 21 | Downie 4 | any |  | ✅ |  |
 | 22 | Typora | any |  | ✅ |  |
 | 23 | Stash | 2.6.4 |  |  |  |
-| 24 | App Cleaner | 8.* - 8.4.3 |  |  |  |
+| 24 | App Cleaner | 8.4.3 |  |  |  |
 | 25 | Hype4 | any | ✅ | ✅ |  |
 | 26 | Infuse | any | ✅ | ✅ |  |
 | 27 | Kaleidoscope | any |  | ✅ |  |

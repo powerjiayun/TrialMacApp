@@ -39,6 +39,8 @@
 			membershipExceptions = (
 				Info.plist,
 				Other/libTrialMacApp.dylib,
+				Other/libTrialMacAppCode.dylib,
+				Other/libTrialMacAppUrl.dylib,
 			);
 			target = 7B22966B2CC74F38007C9D76 /* TrialMacAppGUI */;
 		};
@@ -50,6 +52,8 @@
 			buildPhase = 7B22966A2CC74F38007C9D76 /* Resources */;
 			membershipExceptions = (
 				Other/libTrialMacApp.dylib,
+				Other/libTrialMacAppCode.dylib,
+				Other/libTrialMacAppUrl.dylib,
 				TrialMacAppGUI.entitlements,
 			);
 		};
@@ -429,7 +433,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 29;
+				CURRENT_PROJECT_VERSION = 30;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = TrialMacAppGUI/Assets.xcassets;
 				DEVELOPMENT_TEAM = "";
@@ -450,7 +454,7 @@
 					"$(PROJECT_DIR)/TrialMacAppGUI/Other",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.TrialMacApp.TrialMacAppGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,7 +473,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 29;
+				CURRENT_PROJECT_VERSION = 30;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = TrialMacAppGUI/Assets.xcassets;
 				DEVELOPMENT_TEAM = "";
@@ -490,7 +494,7 @@
 					"$(PROJECT_DIR)/TrialMacAppGUI/Other",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2.0;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.TrialMacApp.TrialMacAppGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";

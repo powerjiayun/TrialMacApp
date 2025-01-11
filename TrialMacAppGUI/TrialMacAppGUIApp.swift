@@ -18,6 +18,10 @@ struct TrialMacAppGUIApp: App {
             CommandGroup(after: .appInfo) {
                 CheckForUpdatesView(updater: UpdaterManager.shared.updater)
             }
+            
+            CommandGroup(replacing: .help) {
+                Link("GitHub", destination: URL(string: "https://github.com/TrialMacApp/TrialMacApp/")!)
+            }
         }
         Settings {
             SettingsView()

@@ -11,6 +11,7 @@ public struct SupportedApp: Codable, Equatable, Identifiable {
     public let id = UUID()
     let MAS: Bool
     let anyVersion: Bool
+    let hookUrl: Bool?
     let bundleId: String
     let name: String
     let version: String
@@ -22,6 +23,7 @@ public struct SupportedApp: Codable, Equatable, Identifiable {
     enum CodingKeys: String, CodingKey {
         case MAS
         case anyVersion
+        case hookUrl
         case bundleId
         case name
         case version

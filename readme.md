@@ -128,5 +128,4 @@ git clone git@github.com:TrialMacApp/TrialMacApp.git
 
 - chatgpt - [chatgpt](https://chatgpt.com)
 - jmpews - [Dobby](https://github.com/jmpews/Dobby)
-- QiuChenlyOpenSource - [SearchHexCodeInFile](https://github.com/QiuChenlyOpenSource/SearchHexCodeInFile)
 - alexzielenski - [optool](https://github.com/alexzielenski/optool)
