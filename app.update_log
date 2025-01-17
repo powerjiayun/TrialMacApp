@@ -217,6 +217,13 @@
     </div>
 
     <div class="version-block">
+      <h2>2.0-31</h2>
+      <ul>
+        <li class="content-zh">减小二进制体积</li>
+        <li class="content-en">Reduce binary size</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>2.0-30</h2>
       <ul>
         <li class="content-zh">优化结构</li>
