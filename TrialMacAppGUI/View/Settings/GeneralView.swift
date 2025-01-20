@@ -72,7 +72,7 @@ struct GeneralView: View {
     
     private var passwordSettings: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("Password Settings")
+            Text("Save Password Settings")
                 .font(.title3)
                 .bold()
             

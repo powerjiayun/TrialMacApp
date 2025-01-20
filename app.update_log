@@ -217,6 +217,13 @@
     </div>
 
     <div class="version-block">
+      <h2>2.0-32</h2>
+      <ul>
+        <li class="content-zh">处理因为密码有特殊字符导致无法使用的问题</li>
+        <li class="content-en">Solve the problem that the password cannot be used because of special characters</li>
+      </ul>
+    </div>
+    <div class="version-block">
       <h2>2.0-31</h2>
       <ul>
         <li class="content-zh">减小二进制体积</li>

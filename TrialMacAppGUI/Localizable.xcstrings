@@ -434,16 +434,6 @@
         }
       }
     },
-    "Password Settings" : {
-      "localizations" : {
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "密码设置"
-          }
-        }
-      }
-    },
     "Please enter your password to continue." : {
       "localizations" : {
         "zh-Hans" : {
@@ -522,6 +512,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "运行app"
+          }
+        }
+      }
+    },
+    "Save Password Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存密码设置"
           }
         }
       }

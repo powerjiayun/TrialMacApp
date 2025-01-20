@@ -45,6 +45,7 @@ class Utils {
                 if let error = error {
                     print(script)
                     print("Error: \(error)")
+                    resultOutput = error.description
                 } else if let output = result.stringValue {
                     resultOutput = output
                 } else {
@@ -60,6 +61,27 @@ class Utils {
         return resultOutput
     }
     
+    //        let password = password.replacingOccurrences(of: "\\", with: "\\\\\\\\") // 这是一个很神奇的地方，如果密码有\ 需要换成一坨\ 不能理解
+    
+    // 转义特殊字符的扩展方法
+    private static func escapeString(_ input: String) -> String {
+        // 定义需要转义的特殊字符
+        let specialChars = CharacterSet(charactersIn: "\\\"'`$!&|(){}[]<>*?#~;=")
+        
+        var result = ""
+        for scalar in input.unicodeScalars {
+            if specialChars.contains(scalar) {
+                if scalar == "\\" {
+                    result.append("\\\\")
+                } else {
+                    result.append("\\")
+                }
+            }
+            result.append(String(scalar))
+        }
+        return result
+    }
+    
     // 同步版本
     public static func runSudoShellCommandByScriptWithPwd(_ command: String, password: String) -> String? {
         // 创建一个信号量用于同步
@@ -69,7 +91,8 @@ class Utils {
         // 在后台队列执行 AppleScript
         DispatchQueue.global(qos: .userInitiated).async {
             autoreleasepool {
-                let script = "do shell script \"echo \(password) | sudo -S \(command)\""
+                let escapedPassword = escapeString(password)
+                let script = "do shell script \"echo \(escapedPassword) | sudo -S \(command)\""
                
                 guard let appleScript = NSAppleScript(source: script) else {
                     semaphore.signal()
@@ -82,6 +105,7 @@ class Utils {
                 if let error = error {
                     print(script)
                     print("Error: \(error)")
+                    resultOutput = error.description
                 } else if let output = result.stringValue {
                     resultOutput = output
                 } else {
