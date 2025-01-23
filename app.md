@@ -23,7 +23,7 @@
 | 11 | Sketch | any | ✅ | ✅ |  |
 | 12 | Screen Recorder by Omi | any | ✅ | ✅ |  |
 | 13 | CleanShot X | 4.7 |  |  |  |
-| 14 | Aldente Pro | any |  | ✅ | Perform the injection first, then use the activation code to activate |
+| 14 | Aldente Pro | any |  | ✅ | https://github.com/TrialMacApp/TrialMacApp/blob/master/special_app.md |
 | 15 | Table Plus | 6.0.4 |  |  | Suspend support |
 | 16 | Doppler | any |  | ✅ |  |
 | 17 | Text Scanner | 1.7.5 | ✅ |  | Suspend support |

@@ -31,6 +31,10 @@
 
 <a href="app.md">Click me to view</a>
 
+## Special app activation
+
+<a href="special_app.md">Click me to view</a>
+
 ## Major features
 
 - Swift native application

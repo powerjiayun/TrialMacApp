@@ -31,6 +31,10 @@
 
 <a href="app.md">点我查看</a>
 
+## 特殊app激活方式
+
+<a href="special_app.md">点我查看</a>
+
 ## 特点
 
 - Swift 原生应用
